@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %}{{ t.faq.hero_title }} — Everwien{% endblock %}
+{% block meta_desc %}{{ t.faq.hero_subtitle }}{% endblock %}
+
+{% block content %}
+<section class="sub-hero" style="min-height:280px;">
+  <div class="hero__bg" style="background-image:url('{{ base_path }}/static/img/terrasse.jpg')"></div>
+  <div class="hero__overlay"></div>
+  <div class="hero__content container">
+    <div class="breadcrumb"><a href="{{ base_path }}/">{{ t.nav.startseite }}</a> <span>›</span> <span>{{ t.faq.breadcrumb }}</span></div>
+    <h1 class="hero__title">{{ t.faq.hero_title }}</h1>
+    <p class="hero__subtitle">{{ t.faq.hero_subtitle }}</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="faq-list fade-in">
+      {% for category in t.faq.categories %}
+      <div class="faq-category">
+        <h2 class="faq-category__title">{{ category.title }}</h2>
+        {% for item in category.questions %}
+        <div class="faq-item">
+          <button class="faq-item__question">{{ item.q }}<svg class="faq-item__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button>
+          <div class="faq-item__answer"><div class="faq-item__answer-inner">{{ item.a }}</div></div>
+        </div>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="text-center fade-in" style="margin-top:48px;">
+      <p style="font-size:1.05rem;color:var(--text-secondary);margin-bottom:20px;">{{ t.faq.more_questions }}</p>
+      <a href="{{ base_path }}/kontakt" class="btn btn--primary">{{ t.faq.more_cta }}</a>
+    </div>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,130 @@
+{% extends "base.html" %}
+{% block title %}{{ t.karriere.hero_title }} — Everwien{% endblock %}
+{% block meta_desc %}{{ t.karriere.hero_subtitle }}{% endblock %}
+
+{% block content %}
+<section class="sub-hero">
+  <div class="hero__bg" style="background-image:url('{{ base_path }}/static/img/team.jpg')"></div>
+  <div class="hero__overlay"></div>
+  <div class="hero__content container">
+    <div class="breadcrumb"><a href="{{ base_path }}/">{{ t.nav.startseite }}</a> <span>›</span> <span>{{ t.karriere.breadcrumb }}</span></div>
+    <h1 class="hero__title">{{ t.karriere.hero_title }}</h1>
+    <p class="hero__subtitle">{{ t.karriere.hero_subtitle }}</p>
+  </div>
+</section>
+
+<!-- Story -->
+<section class="section">
+  <div class="container">
+    <div class="info-grid fade-in">
+      <div>
+        <p class="section-label">{{ t.karriere.why_label }}</p>
+        <h2 class="section-title">{{ t.karriere.why_title }}</h2>
+        <p>{{ t.karriere.why_text1 }}</p>
+        <p>{{ t.karriere.why_text2 }}</p>
+      </div>
+      <div class="team-img">
+        <img src="{{ base_path }}/static/img/team.jpg" alt="Das Everwien Team" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Benefits -->
+<section class="section section--alt">
+  <div class="container">
+    <div class="text-center fade-in" style="margin-bottom:40px;">
+      <p class="section-label">{{ t.karriere.benefits_label }}</p>
+      <h2 class="section-title">{{ t.karriere.benefits_title }}</h2>
+    </div>
+    <div class="karriere-grid fade-in">
+      {% for benefit in t.karriere.benefits %}
+      <div class="karriere-benefit">
+        <div class="karriere-benefit__icon">
+          {% if loop.index == 1 %}
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          {% elif loop.index == 2 %}
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+          {% elif loop.index == 3 %}
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          {% elif loop.index == 4 %}
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          {% elif loop.index == 5 %}
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          {% else %}
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          {% endif %}
+        </div>
+        <h4>{{ benefit.title }}</h4>
+        <p>{{ benefit.text }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Aktuelle Stellen -->
+<section class="section">
+  <div class="container">
+    <div class="fade-in" style="margin-bottom:32px;">
+      <p class="section-label">{{ t.karriere.jobs_label }}</p>
+      <h2 class="section-title">{{ t.karriere.jobs_title }}</h2>
+    </div>
+    <div class="fade-in">
+      {% for job in t.karriere.jobs %}
+      <div class="job-card">
+        <div class="job-card__info">
+          <h4>{{ job.title }}</h4>
+          <p>{{ job.text }}</p>
+        </div>
+        <div class="job-card__tags">
+          {% for tag in job.tags %}
+          <span class="job-tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Initiativbewerbung -->
+<section class="section section--alt">
+  <div class="container">
+    <div class="fade-in" style="max-width:640px;">
+      <p class="section-label">{{ t.karriere.initiative_label }}</p>
+      <h2 class="section-title" style="font-size:1.5rem;">{{ t.karriere.initiative_title }}</h2>
+      <p class="section-subtitle" style="margin-bottom:28px;">{{ t.karriere.initiative_subtitle }}</p>
+      <form id="karriere-form" novalidate>
+        <div class="form-grid">
+          <div class="form-group">
+            <label class="form-label" for="k-name">{{ t.karriere.initiative_name }}</label>
+            <input class="form-input" type="text" id="k-name" name="name" placeholder="{{ t.kontakt.form_name_placeholder }}" required>
+            <span class="form-error">{{ t.kontakt.form_name_error }}</span>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="k-email">{{ t.karriere.initiative_email }}</label>
+            <input class="form-input" type="email" id="k-email" name="email" placeholder="{{ t.kontakt.form_email_placeholder }}" required>
+            <span class="form-error">{{ t.kontakt.form_email_error }}</span>
+          </div>
+          <div class="form-group form-group--full">
+            <label class="form-label" for="k-message">{{ t.karriere.initiative_message }}</label>
+            <textarea class="form-textarea" id="k-message" name="message" rows="4" placeholder="{{ t.karriere.initiative_message_placeholder }}" required></textarea>
+            <span class="form-error">{{ t.kontakt.form_message_error }}</span>
+          </div>
+          <div class="form-group form-group--full">
+            <label class="form-label">{{ t.karriere.initiative_file }}</label>
+            <label class="form-file">
+              <input type="file" name="cv" accept=".pdf,.doc,.docx" style="display:none">
+              {{ t.kontakt.form_file_text }}
+            </label>
+          </div>
+          <div class="form-group form-group--full">
+            <button type="submit" class="btn btn--primary" style="width:100%;justify-content:center;">{{ t.karriere.initiative_submit }}</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+{% endblock %}

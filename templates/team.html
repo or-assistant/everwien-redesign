@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block title %}{{ t.team.hero_title }} — Everwien{% endblock %}
+{% block meta_desc %}{{ t.team.hero_subtitle }}{% endblock %}
+
+{% block content %}
+<section class="sub-hero">
+  <div class="hero__bg" style="background-image:url('{{ base_path }}/static/img/team.jpg')"></div>
+  <div class="hero__overlay"></div>
+  <div class="hero__content container">
+    <div class="breadcrumb"><a href="{{ base_path }}/">{{ t.nav.startseite }}</a> <span>›</span> <span>{{ t.team.breadcrumb }}</span></div>
+    <h1 class="hero__title">{{ t.team.hero_title }}</h1>
+    <p class="hero__subtitle">{{ t.team.hero_subtitle }}</p>
+  </div>
+</section>
+
+<!-- Intro -->
+<section class="section">
+  <div class="container">
+    <div class="text-center fade-in" style="margin-bottom:48px;">
+      <p class="section-label">{{ t.team.intro_text }}</p>
+      <h2 class="section-title">{{ t.team.intro_subtitle }}</h2>
+    </div>
+
+    <!-- Team Accordion -->
+    <div class="team-accordion fade-in">
+      {% for category in t.team.categories %}
+      <div class="team-category" id="team-{{ category.id }}">
+        <button class="team-category__header{% if loop.first %} active{% endif %}" aria-expanded="{% if loop.first %}true{% else %}false{% endif %}">
+          <h3 class="team-category__title">{{ category.title }}</h3>
+          <span class="team-category__count">{{ category.members|length }}{% if category.plus_text %} +{% endif %}</span>
+          <svg class="team-category__chevron" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="team-category__body"{% if loop.first %} style="max-height:2000px;"{% endif %}>
+          <div class="team-category__inner">
+            <div class="team-grid">
+              {% for member in category.members %}
+              <div class="team-member">
+                <div class="team-member__photo">
+                  <img src="{{ base_path }}/static/img/{{ member.photo }}" alt="{{ member.name }}" loading="lazy" width="200" height="200">
+                </div>
+                <h4 class="team-member__name">{{ member.name }}</h4>
+                <p class="team-member__role">{{ member.role }}</p>
+                <p class="team-member__text">{{ member.text }}</p>
+              </div>
+              {% endfor %}
+            </div>
+            {% if category.plus_text %}
+            <p class="team-category__more">{{ category.plus_text }}</p>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Karriere CTA -->
+<section class="section section--dark">
+  <div class="cta-section">
+    <h2>{{ t.team.cta_title }}</h2>
+    <p>{{ t.team.cta_text }}</p>
+    <a href="{{ base_path }}/karriere" class="btn btn--primary">{{ t.team.cta_btn }}</a>
+  </div>
+</section>
+{% endblock %}

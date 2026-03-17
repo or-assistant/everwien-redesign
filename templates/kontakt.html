@@ -1,0 +1,130 @@
+{% extends "base.html" %}
+{% block title %}{{ t.kontakt.hero_title }} — Everwien{% endblock %}
+{% block meta_desc %}{{ t.kontakt.hero_subtitle }}{% endblock %}
+
+{% block content %}
+<section class="sub-hero" style="min-height:280px;">
+  <div class="hero__bg" style="background-image:url('{{ base_path }}/static/img/team.jpg')"></div>
+  <div class="hero__overlay"></div>
+  <div class="hero__content container">
+    <div class="breadcrumb"><a href="{{ base_path }}/">{{ t.nav.startseite }}</a> <span>›</span> <span>{{ t.kontakt.breadcrumb }}</span></div>
+    <h1 class="hero__title">{{ t.kontakt.hero_title }}</h1>
+    <p class="hero__subtitle">{{ t.kontakt.hero_subtitle }}</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="contact-layout">
+      <!-- Form -->
+      <div class="fade-in">
+        <h2 class="section-title" style="font-size:1.5rem;margin-bottom:8px;">{{ t.kontakt.form_title }}</h2>
+        <p class="section-subtitle" style="margin-bottom:28px;">{{ t.kontakt.form_subtitle }}</p>
+
+        {% if lang == 'plt' %}
+        <div class="platt-easter-egg" style="background:var(--bg-accent);border-left:4px solid var(--accent);padding:16px 20px;border-radius:8px;margin-bottom:24px;font-style:italic;font-size:1.1rem;">
+          Wi snackt ok Platt!
+        </div>
+        {% endif %}
+
+        <form id="contact-form" novalidate>
+          <div class="form-grid">
+            <div class="form-group">
+              <label class="form-label" for="name">{{ t.kontakt.form_name }}</label>
+              <input class="form-input" type="text" id="name" name="name" placeholder="{{ t.kontakt.form_name_placeholder }}" required>
+              <span class="form-error">{{ t.kontakt.form_name_error }}</span>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">{{ t.kontakt.form_email }}</label>
+              <input class="form-input" type="email" id="email" name="email" placeholder="{{ t.kontakt.form_email_placeholder }}" required>
+              <span class="form-error">{{ t.kontakt.form_email_error }}</span>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="phone">{{ t.kontakt.form_phone }}</label>
+              <input class="form-input" type="tel" id="phone" name="phone" placeholder="{{ t.kontakt.form_phone_placeholder }}">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="topic">{{ t.kontakt.form_topic }}</label>
+              <select class="form-select" id="topic" name="topic" required>
+                <option value="">{{ t.kontakt.form_topic_placeholder }}</option>
+                {% for opt in t.kontakt.form_topic_options %}
+                <option value="{{ opt.value }}">{{ opt.label }}</option>
+                {% endfor %}
+              </select>
+              <span class="form-error">{{ t.kontakt.form_topic_error }}</span>
+            </div>
+            <div class="form-group form-group--full">
+              <label class="form-label" for="message">{{ t.kontakt.form_message }}</label>
+              <textarea class="form-textarea" id="message" name="message" rows="5" placeholder="{{ t.kontakt.form_message_placeholder }}" required></textarea>
+              <span class="form-error">{{ t.kontakt.form_message_error }}</span>
+            </div>
+            <div class="form-group form-group--full">
+              <label class="form-label">{{ t.kontakt.form_file }}</label>
+              <label class="form-file">
+                <input type="file" name="attachment" accept=".pdf,.jpg,.jpeg,.png" style="display:none">
+                {{ t.kontakt.form_file_text }}
+              </label>
+            </div>
+            <div class="form-group form-group--full">
+              <label class="form-checkbox">
+                <input type="checkbox" id="callback" name="callback">
+                {{ t.kontakt.form_callback }}
+              </label>
+            </div>
+            <div class="form-group form-group--full">
+              <label class="form-checkbox">
+                <input type="checkbox" id="privacy" name="privacy" required>
+                {{ t.kontakt.form_privacy }}
+              </label>
+              <span class="form-error">{{ t.kontakt.form_privacy_error }}</span>
+            </div>
+            <div class="form-group form-group--full">
+              <button type="submit" class="btn btn--primary" style="width:100%;justify-content:center;">{{ t.kontakt.form_submit }}</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <!-- Sidebar -->
+      <div class="contact-sidebar fade-in">
+        <div class="contact-info-card">
+          <h3>{{ t.kontakt.sidebar_contact_title }}</h3>
+          <div class="contact-info-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <p><strong>{{ t.kontakt.sidebar_address }}</strong><br>Sonnenschutz & Raumdesign Everwien<br>Molkereilohne 35<br>26506 Norden</p>
+          </div>
+          <div class="contact-info-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3"/></svg>
+            <p><strong>{{ t.kontakt.sidebar_phone }}</strong><br><a href="tel:+494931939410" style="color:var(--accent);">04931 / 93940</a></p>
+          </div>
+          <div class="contact-info-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 7l-10 7L2 7"/></svg>
+            <p><strong>{{ t.kontakt.sidebar_email }}</strong><br><a href="mailto:info@everwien.de" style="color:var(--accent);">info@everwien.de</a></p>
+          </div>
+        </div>
+
+        <div class="contact-info-card">
+          <h3>{{ t.kontakt.sidebar_hours_title }}</h3>
+          <div class="contact-info-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <div>
+              <p><strong>{{ t.kontakt.sidebar_hours_weekday }}</strong></p>
+              <p><strong>{{ t.kontakt.sidebar_hours_saturday }}</strong></p>
+              <p style="color:var(--text-secondary);">{{ t.kontakt.sidebar_hours_sunday }}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-info-card">
+          <h3>{{ t.kontakt.sidebar_directions_title }}</h3>
+          <p style="font-size:.9rem;color:var(--text-secondary);line-height:1.6;margin-bottom:16px;white-space:pre-line;">{{ t.kontakt.sidebar_directions_text }}</p>
+        </div>
+
+        <div class="map-container">
+          <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=7.18%2C53.58%2C7.23%2C53.61&layer=mapnik&marker=53.5957%2C7.2061" title="Standort Everwien in Norden" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

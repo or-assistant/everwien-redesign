@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="{{ t.lang }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="{{ base_path }}/static/img/favicon.svg">
+  <title>{% block title %}Everwien Sonnenschutz & Raumdesign{% endblock %} | Norden/Ostfriesland</title>
+  <meta name="description" content="{% block meta_desc %}Sonnenschutz, Glasdächer, Markisen & Raumdesign aus Norden/Ostfriesland. Seit 1880. 2.000 m² Ausstellung. Eigene Produktion.{% endblock %}">
+  <meta name="geo.region" content="DE-NI">
+  <meta name="geo.placename" content="Norden, Niedersachsen">
+  <meta name="geo.position" content="53.5957;7.2061">
+  <link rel="alternate" hreflang="de" href="https://everwien.de{{ base_path }}/">
+  <link rel="alternate" hreflang="en" href="https://everwien.de{{ base_path }}/">
+  <meta property="og:title" content="{% block og_title %}Everwien Sonnenschutz & Raumdesign{% endblock %}">
+  <meta property="og:description" content="{% block og_desc %}Sonnenschutz, Glasdächer & Raumdesign aus Ostfriesland. Seit 1880.{% endblock %}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:image" content="{{ base_path }}/static/img/hero-terrace.jpg">
+  <link rel="stylesheet" href="{{ base_path }}/static/css/style.css">
+  {% block schema %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Sonnenschutz & Raumdesign Everwien",
+    "description": "Sonnenschutz, Glasdächer, Markisen & Raumdesign aus Norden/Ostfriesland seit 1880.",
+    "foundingDate": "1880",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Molkereilohne 35",
+      "addressLocality": "Norden",
+      "postalCode": "26506",
+      "addressRegion": "Niedersachsen",
+      "addressCountry": "DE"
+    },
+    "url": "https://everwien.de",
+    "telephone": "+49 4931 93940",
+    "email": "info@everwien.de",
+    "openingHoursSpecification": [
+      {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "18:00"},
+      {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "10:00", "closes": "14:00"}
+    ]
+  }
+  </script>
+  {% endblock %}
+  <script>
+    (function(){var t=localStorage.getItem('theme');if(t==='dark'||(t!=='light'&&window.matchMedia('(prefers-color-scheme:dark)').matches)){document.documentElement.setAttribute('data-theme','dark')}})();
+  </script>
+</head>
+<body>
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress" id="scroll-progress"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" role="navigation" aria-label="Hauptnavigation">
+    <div class="nav__inner">
+      <a href="{{ base_path }}/" class="nav__logo" aria-label="Everwien Startseite">
+        <img src="{{ base_path }}/static/img/logo.svg" alt="Everwien Sonnenschutz & Raumdesign" width="200" height="50">
+      </a>
+      <div class="nav__links">
+        <a href="{{ base_path }}/glasdaecher" class="nav__link">{{ t.nav.glasdaecher }}</a>
+        <a href="{{ base_path }}/sonnenschutz" class="nav__link">{{ t.nav.sonnenschutz }}</a>
+        <a href="{{ base_path }}/gartenmoebel" class="nav__link">{{ t.nav.gartenmoebel }}</a>
+        <a href="{{ base_path }}/raumdesign" class="nav__link">{{ t.nav.raumdesign }}</a>
+        <a href="{{ base_path }}/ueber-uns" class="nav__link">{{ t.nav.ueber_uns }}</a>
+        <a href="{{ base_path }}/team" class="nav__link">{{ t.nav.team }}</a>
+        <a href="{{ base_path }}/kontakt" class="btn btn--primary nav__cta">{{ t.nav.kontakt }}</a>
+      </div>
+      <div class="nav__controls">
+        <!-- Language Switcher -->
+        <div class="lang-switch">
+          <a href="{{ base_path }}/lang/plt" class="lang-switch__btn{% if lang == 'plt' %} lang-switch__btn--active{% endif %}" title="Plattdüütsch">PLT</a>
+          <a href="{{ base_path }}/lang/de" class="lang-switch__btn{% if lang == 'de' %} lang-switch__btn--active{% endif %}" title="Deutsch">DE</a>
+          <a href="{{ base_path }}/lang/en" class="lang-switch__btn{% if lang == 'en' %} lang-switch__btn--active{% endif %}" title="English">EN</a>
+        </div>
+        <!-- Dark Mode Toggle -->
+        <button class="theme-toggle" id="theme-toggle" aria-label="Dark Mode umschalten" title="{{ t.dark_mode.toggle_dark }}">
+          <svg class="theme-toggle__sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          <svg class="theme-toggle__moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+        </button>
+        <button class="nav__hamburger" aria-label="Menü öffnen" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav -->
+  <div class="nav__overlay" aria-hidden="true"></div>
+  <div class="nav__mobile" role="dialog" aria-label="Mobile Navigation">
+    <div class="nav__mobile-lang">
+      <a href="{{ base_path }}/lang/plt" class="lang-switch__btn{% if lang == 'plt' %} lang-switch__btn--active{% endif %}">PLT</a>
+      <a href="{{ base_path }}/lang/de" class="lang-switch__btn{% if lang == 'de' %} lang-switch__btn--active{% endif %}">DE</a>
+      <a href="{{ base_path }}/lang/en" class="lang-switch__btn{% if lang == 'en' %} lang-switch__btn--active{% endif %}">EN</a>
+    </div>
+    <a href="{{ base_path }}/">{{ t.nav.startseite }}</a>
+    <a href="{{ base_path }}/glasdaecher">{{ t.nav.glasdaecher }}</a>
+    <a href="{{ base_path }}/sonnenschutz">{{ t.nav.sonnenschutz }}</a>
+    <a href="{{ base_path }}/insektenschutz">{{ t.nav.insektenschutz }}</a>
+    <a href="{{ base_path }}/gartenmoebel">{{ t.nav.gartenmoebel }}</a>
+    <a href="{{ base_path }}/raumdesign">{{ t.nav.raumdesign }}</a>
+    <a href="{{ base_path }}/ueber-uns">{{ t.nav.ueber_uns }}</a>
+    <a href="{{ base_path }}/team">{{ t.nav.team }}</a>
+    <a href="{{ base_path }}/karriere">{{ t.nav.karriere }}</a>
+    <a href="{{ base_path }}/faq">{{ t.nav.faq }}</a>
+    <a href="{{ base_path }}/kontakt">{{ t.nav.kontakt }}</a>
+  </div>
+
+  <!-- Main Content -->
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <img src="{{ base_path }}/static/img/logo.svg" alt="Everwien" width="180" height="45">
+          <p>{{ t.footer.brand_text }}</p>
+        </div>
+        <div class="footer__col">
+          <h4>{{ t.footer.products }}</h4>
+          <a href="{{ base_path }}/glasdaecher">{{ t.nav.glasdaecher }}</a>
+          <a href="{{ base_path }}/sonnenschutz">{{ t.nav.sonnenschutz }}</a>
+          <a href="{{ base_path }}/insektenschutz">{{ t.nav.insektenschutz }}</a>
+          <a href="{{ base_path }}/gartenmoebel">{{ t.nav.gartenmoebel }}</a>
+          <a href="{{ base_path }}/raumdesign">{{ t.nav.raumdesign }}</a>
+        </div>
+        <div class="footer__col">
+          <h4>{{ t.footer.company }}</h4>
+          <a href="{{ base_path }}/ueber-uns">{{ t.nav.ueber_uns }}</a>
+          <a href="{{ base_path }}/karriere">{{ t.nav.karriere }}</a>
+          <a href="{{ base_path }}/faq">{{ t.nav.faq }}</a>
+          <a href="{{ base_path }}/kontakt">{{ t.nav.kontakt }}</a>
+        </div>
+        <div class="footer__col">
+          <h4>{{ t.footer.contact }}</h4>
+          <a href="tel:+494931939410">04931 / 93940</a>
+          <a href="mailto:info@everwien.de">info@everwien.de</a>
+          <p style="font-size:.85rem;margin-top:8px;white-space:pre-line;">{{ t.footer.hours }}</p>
+        </div>
+      </div>
+      <!-- Plattdeutsch Easter Egg: Rotating saying -->
+      <div class="footer__saying" id="footer-saying"></div>
+      <div class="footer__bottom">
+        <span>{{ t.footer.copyright }}</span>
+        <span>
+          <a href="{{ base_path }}/impressum" style="margin-right:16px;">{{ t.nav.impressum }}</a>
+          <a href="{{ base_path }}/datenschutz">{{ t.nav.datenschutz }}</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Nach oben scrollen">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <script>window.__EVERWIEN_LANG__ = {{ t | tojson }};</script>
+  <script src="{{ base_path }}/static/js/main.js"></script>
+</body>
+</html>

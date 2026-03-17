@@ -1,0 +1,911 @@
+{
+  "lang": "nds",
+  "lang_code": "plt",
+  "lang_name": "Plattdüütsch",
+  "loading": "Tööv mal eeven...",
+  "nav": {
+    "glasdaecher": "Glasdäker",
+    "sonnenschutz": "Sünnenschutz",
+    "gartenmoebel": "Tuunmöbels",
+    "raumdesign": "Ruumdesign",
+    "insektenschutz": "Insektenschutz",
+    "ueber_uns": "Över uns",
+    "karriere": "Karriere bi uns",
+    "faq": "Fragen",
+    "kontakt": "Kontakt",
+    "startseite": "Startsied",
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutz",
+    "team": "Team"
+  },
+  "dark_mode": {
+    "toggle_light": "Licht an",
+    "toggle_dark": "Licht ut"
+  },
+  "trust_bar": {
+    "since": "Siet 1880",
+    "exhibition": "2.000 m² Utstellung",
+    "production": "Egen Produktschoon",
+    "consultation": "Kostenlose Beratung"
+  },
+  "home": {
+    "hero_title": "Juw Tohuus. Perfekt beschütt.",
+    "hero_subtitle": "Sünnenschutz, Glasdäker & Ruumdesign ut Ostfreesland. Siet 1880.",
+    "hero_cta": "Kostenlose Beratung anfragen",
+    "hero_cta2": "Utstellung besöken",
+    "services_label": "Uns Leistungen",
+    "services_title": "Allens för juw Tohuus",
+    "services_subtitle": "Van de Terrassenöverdakung bit to't Ruumdesign — allens ut een Hand, maakt in uns egen Produktschoon.",
+    "card_glasdaecher_title": "Glasdäker & Överdakungen",
+    "card_glasdaecher_text": "Terrassendäker, Sommertüüns & Vördäker",
+    "card_sonnenschutz_title": "Sünnenschutz",
+    "card_sonnenschutz_text": "Markiesen, Rollladen & Smart-Home-Stüürungen",
+    "card_insektenschutz_title": "Insektenschutz",
+    "card_insektenschutz_text": "För Finsters & Döören",
+    "card_gartenmoebel_title": "Tuunmöbels",
+    "card_gartenmoebel_text": "Loungemöbels, Strandkörv & mehr",
+    "card_raumdesign_title": "Ruum & Design",
+    "card_raumdesign_text": "Gardiinen, Vörhäng & Accessoires",
+    "why_label": "Woso Everwien?",
+    "why_title": "Traditschoon drept Innovatschoon",
+    "why_subtitle": "Siet över 145 Johr verbinnen wi ostfreesk Handwark mit moderne Lösungen för juw Tohuus.",
+    "why_production_title": "Egen Produktschoon",
+    "why_production_text": "Keen Massenwaar — jedes Produkt warrt in uns Warksteed in Nörden individuell för jo maakt.",
+    "why_experience_title": "145+ Johr Erfahrung",
+    "why_experience_text": "Siet 1880 steiht de Naam Everwien för Qualität, Tooverlatigkeit un handwarkliche Perfektschoon.",
+    "why_consultation_title": "Beratung vör Ort",
+    "why_consultation_text": "Besökt uns 2.000 m² Musterutstellung in Nörden — kostenlos un unverbindlich.",
+    "gallery_label": "Uns Projekten",
+    "gallery_title": "Inspiratschoon för juw Tohuus",
+    "faq_label": "Faken stellt Fragen",
+    "faq_title": "Wi hebbt de Antworden",
+    "faq_all": "All Fragen ankieken",
+    "contact_label": "Kontakt",
+    "contact_title": "Besökt uns in Nörden",
+    "contact_address_title": "Adress",
+    "contact_phone_title": "Telefoon & E-Mail",
+    "contact_hours_title": "Ööpnungstieden",
+    "contact_hours": "Ma – Fr: 9:00 – 18:00 Ühr\nSa: 10:00 – 14:00 Ühr\nSü: sloten",
+    "contact_cta": "Kontakt opnehmen",
+    "karriere_title": "Warr Deel van uns Team",
+    "karriere_text": "Wi sökt engageerte Handwarkers, Azubis un Verkoopsberaters.",
+    "karriere_cta": "Stellenangebote ankieken",
+    "faq_questions": [
+      {
+        "q": "Wat kost een Terrassenöverdakung?",
+        "a": "De Kosten hängt af van Grööt, Material un Utstatung. Een Glasdak fangt bi ca. 5.000 € an — individuelle Lösungen reekent wi geern persönlich för jo ut. Maakt een Termin ut!"
+      },
+      {
+        "q": "Wo lang düürt de Montage?",
+        "a": "Je na Projekt düürt de Montage twüschen een un fief Warkdaag. Terrassenöverdakungen sünd faken in 2–3 Daag klaar, Sommertüüns bruukt wat mehr Tied."
+      },
+      {
+        "q": "Beed ji Finanzierung an?",
+        "a": "Ja, wi beedt in Tosammenarbeit mit uns Partners flexible Finanzierungsmöglichkeiten an. Snackt uns bi juw Beratungstermin dor eenfach op an."
+      },
+      {
+        "q": "Kann ik de Utstellung ahn Termin besöken?",
+        "a": "Natüürlich! Uns 2.000 m² grote Musterutstellung in Nörden köönt Se tiedens de Ööpnungstieden jedertieds ahn Termin besöken."
+      },
+      {
+        "q": "Levert ji ok buuten Ostfreesland?",
+        "a": "Ja! Wi levert un monteert in'n heelen Noordwesten van Düütschland. Uns Kerngebied is Ostfreesland un de Regioon rund üm Nörden, Auerk, Emden un Leer."
+      }
+    ]
+  },
+  "glasdaecher": {
+    "hero_title": "Glasdäker & Överdakungen",
+    "hero_subtitle": "Van de Terrassenöverdakung bit to'n Sommertuun — juw Outdoor-Oase, beschütt bi elk Wedder.",
+    "breadcrumb": "Glasdäker",
+    "products_label": "Uns Glasdak-Lösungen",
+    "products_title": "För elk Anspruch de passende Överdakung",
+    "products_subtitle": "Of klassisch Terrassendak, lichtdöörflutet Sommertuun oder elegant Windschutz — wi maakt allens in uns egen Produktschoon in Nörden.",
+    "products": [
+      {
+        "title": "Terrassendäker",
+        "text": "Hoochwertige Aluminium-Konstruktschoonen mit Seekerheitsglas. Geneet juw Terrass bi elk Wedder — drööch un beschütt.",
+        "details": [
+          "Aluminium-Tragwark mit Pulverbeschichtung",
+          "Seekerheitsglas (VSG) 10mm",
+          "Regenwaterafleitung integreert",
+          "In alle RAL-Farven leverbaar"
+        ]
+      },
+      {
+        "title": "Sommertüüns",
+        "text": "Verglaaste Terrassenöverdakungen mit flexible Siedenelemente. Bruukt juw Tuun van Fröhjohr bit Harvst — wind- un regenbesütt.",
+        "details": [
+          "Glas-Faltwänd för flexiblen Togang",
+          "Keen Baugenehmigung nödig",
+          "Belüftung integreert",
+          "Beschattung op Wunsch"
+        ]
+      },
+      {
+        "title": "Glas-Windschutz",
+        "text": "Elegante Glas-Windschutz-Systeme för Terrass un Balkon. Schutz vör Wind ahn den Blick to versperren.",
+        "details": [
+          "Rahmenlos oder mit Aluminium-Profilen",
+          "Seekerheitsglas (ESG) 8-10mm",
+          "Ganz- oder Deelverglasung",
+          "Schieb- oder Festelement"
+        ]
+      },
+      {
+        "title": "Huusdöör-Vördäker",
+        "text": "Stilvolle Vördäker, de juw Ingangsbereich beschütten un opweerden. In verscheden Designs un Materialen leverbaar.",
+        "details": [
+          "Glas-Edelstahl-Kombinatschoonen",
+          "Aluminium-Systeme",
+          "Mit LED-Beleuchtung leverbaar",
+          "Montage in 1 Dag"
+        ]
+      }
+    ],
+    "advantages_label": "Juw Vördeelen",
+    "advantages_title": "Woso een Glasdak van Everwien?",
+    "advantages": [
+      {
+        "title": "10 Johr Garantie",
+        "text": "Op Konstruktschoon un Verglasung — för langfristige Seekerheit."
+      },
+      {
+        "title": "Egen Fertigung",
+        "text": "Maatanfertigung ut uns Warksteed in Nörden — keen Massenwaar."
+      },
+      {
+        "title": "Smart-Home-fähig",
+        "text": "Integreerte Stüürung för Beschattung, Beleuchtung un Belüftung."
+      },
+      {
+        "title": "Persöönliche Beratung",
+        "text": "Kostenlos bi jo vör Ort oder in uns Utstellung."
+      }
+    ],
+    "cta_title": "Juw Drööm-Glasdak wacht",
+    "cta_text": "Laat jo kostenlos beraten — vör Ort oder in uns 2.000 m² Utstellung in Nörden.",
+    "cta_btn": "Nu beraten laten",
+    "related_title": "Verwandte Kategorien"
+  },
+  "sonnenschutz": {
+    "hero_title": "Sünnenschutz för elke Situatschoon",
+    "hero_subtitle": "Markiesen, Rollladen, Raffstores & intelligente Stüürungen — för optimaal Klima in juw Tohuus.",
+    "breadcrumb": "Sünnenschutz",
+    "products_label": "Uns Sünnenschutz-Lösungen",
+    "products_title": "Schutz vör Sünn, Hitt & Blendung",
+    "products_subtitle": "Van de klassische Markies bit to de intelligente Stüürung — wi beedt de perfekte Lösung för elk Bedarf.",
+    "products": [
+      {
+        "title": "Markiesen",
+        "text": "Gelenkarm-, Kassetten- un Wintergartenmarkiesen in taalrieke Farven un Stoffen. Mit optionalen Windwächter un Elektromotor.",
+        "details": [
+          "Gelenkarmmarkiesen bit 7m Utfall",
+          "Kassettenmarkiesen (geschloten Gehüse)",
+          "Wintergartenmarkiesen (op't Dak)",
+          "Senkrecht-Markiesen (Fassade)"
+        ]
+      },
+      {
+        "title": "Rollladen",
+        "text": "Moderne Rollladen för Warmdämmung, Schallschutz un Inbraaksekerheit. Ideaal to'n Nachrüsten an bestahn Gebüüden.",
+        "details": [
+          "Vörbau- un Aufsatzrollladen",
+          "Aluminium- oder Kunststofflamellen",
+          "Elektrisch oder per Hand",
+          "Inbraakhemmend bit RC2"
+        ]
+      },
+      {
+        "title": "Innenlösungen",
+        "text": "Plissees, Jalousien un Innenrollos in untahlbare Farven un Transparenzstufen. Perfekte Lichtstüürung för elk Ruum.",
+        "details": [
+          "Plissees (Wabenplissee för Isolatschoon)",
+          "Jalousien (Aluminium oder Holz)",
+          "Innenrollos (Verdunkelung möglich)",
+          "Flächenvörhäng"
+        ]
+      },
+      {
+        "title": "Raffstores",
+        "text": "Butenjalousien mit verstellbare Lamellen — de effektivste Sünnenschutz mit vull Daglichnutzung un Döörsiecht.",
+        "details": [
+          "Lamellen stufenlos verstellbaar",
+          "Wind- un wedderfest",
+          "Optimale Lichtstüürung",
+          "Sichtschutz bi vull Belüftung"
+        ]
+      },
+      {
+        "title": "Smart-Home-Stüürungen",
+        "text": "Stüürt juw Sünnenschutz per App, Spraak oder vullautomatisch över Sensoren. Wi integreert all gängigen Systeme.",
+        "details": [
+          "Somfy TaHoma / io-homecontrol",
+          "Homematic / KNX",
+          "Sünn-, Wind- un Regensensoren",
+          "Sprachstüürung (Alexa, Google)"
+        ]
+      }
+    ],
+    "advantages_label": "Juw Vördeelen",
+    "advantages_title": "Sünnenschutz van Everwien",
+    "advantages": [
+      {
+        "title": "UV-Schutz",
+        "text": "Hoochwertige Stoffen mit bit to 95% UV-Schutz för juw Gesundheit."
+      },
+      {
+        "title": "Nachrüstung möglich",
+        "text": "Fass all uns Produkten laat sik problemlos nachrüsten."
+      },
+      {
+        "title": "5 Johr Garantie",
+        "text": "Op all Sünnenschutz-Produkten inkl. Motor un Stüürung."
+      },
+      {
+        "title": "Smart Home",
+        "text": "Integratschoon in all gängigen Smart-Home-Systeme möglich."
+      }
+    ],
+    "cta_title": "Sünnenschutz na Maat",
+    "cta_text": "Wi beraat jo kostenlos — bi jo vör Ort oder in uns Utstellung in Nörden.",
+    "cta_btn": "Nu beraten laten",
+    "related_title": "Verwandte Kategorien"
+  },
+  "insektenschutz": {
+    "hero_title": "Insektenschutz för juw Tohuus",
+    "hero_subtitle": "Frische Lucht ahn ungebeeden Gäst — maatfertigte Lösungen för Finsters un Döören.",
+    "breadcrumb": "Insektenschutz",
+    "products_label": "Uns Insektenschutz-Lösungen",
+    "products_title": "För elk Finster un elke Döör",
+    "products_subtitle": "Of Spannrahmen, Rollo oder Scheevdöör — wi finnt de perfekte Lösung, passgenau un in Premium-Qualität.",
+    "products": [
+      {
+        "title": "Spannrahmen",
+        "text": "De Klassiker: Fast monteert Rahmen mit fien Gewebe. Eenfach intosetten, licht to reinigen un langlebig.",
+        "details": [
+          "Aluminium-Rahmen in alle Farven",
+          "Transnocent-Gewebe (kaum sichtbaar)",
+          "Eenfach to reinigen",
+          "Pollengewebe leverbaar"
+        ]
+      },
+      {
+        "title": "Insektenschutz-Rollos",
+        "text": "Flexibel bi Bedarf runtertrecken — ideaal för Finsters un Dakfinsters. Verdwinnt unsichtbaar in de Kassett.",
+        "details": [
+          "Kassettenrollo (verdeckte Montage)",
+          "För Dakfinsters geschickt",
+          "Eenhandbedeenung",
+          "Federautomatik"
+        ]
+      },
+      {
+        "title": "Scheevdöören",
+        "text": "För grote Terrassendöören un Balkondöören. Lichtgängig, stabil un barrierefreie Swell möglich.",
+        "details": [
+          "Bit 3m Breed leverbaar",
+          "Barrierefreie Schwelle 20mm",
+          "Edelstahl-Laufrollen",
+          "Dubbelspoor möglich"
+        ]
+      },
+      {
+        "title": "Dreirahmen",
+        "text": "För Balkondöören un Huusdöören: Ööpnen un sluten as een tweete Döör. Robust un alltagstauglich.",
+        "details": [
+          "Zelfslutend mit Magneet",
+          "180° ööpnenbaar",
+          "Auch för breede Döörööpnungen",
+          "Kinderleicht to bedenen"
+        ]
+      }
+    ],
+    "advantages_label": "Juw Vördeelen",
+    "advantages_title": "Insektenschutz van Everwien",
+    "advantages": [
+      {
+        "title": "Maatanfertigung",
+        "text": "Elk Rahmen warrt exakt na juw Finster- un Döörmaaten fertigt."
+      },
+      {
+        "title": "Pollengewebe",
+        "text": "Spezielle Gewebe för Allergiker — bit to 90% weniger Pollen."
+      },
+      {
+        "title": "Eenfache Montage",
+        "text": "Snelle, suvere Installatschoon — meist ahn Bohren möglich."
+      }
+    ],
+    "cta_title": "Insektenschutz na Maat",
+    "cta_text": "Wi koomt to jo, nehmt Maat un monteert — allens ut een Hand.",
+    "cta_btn": "Nu beraten laten",
+    "related_title": "Verwandte Kategorien"
+  },
+  "gartenmoebel": {
+    "hero_title": "Tuunmöbels för juw Outdoor-Paradies",
+    "hero_subtitle": "Van Loungemöbels över Strandkörv bit to Sünnenschirme — entdeckt uns Utwahl in de Utstellung.",
+    "breadcrumb": "Tuunmöbels",
+    "products_label": "Uns Tuunmöbels",
+    "products_title": "Qualität, de Sommer för Sommer begeistert",
+    "products_subtitle": "Of Metall, Holt oder Kunststoff — wi föhrt blots utsoochte Marken, de höögste Ansprüch an Design un Langlebigkeit genöögt.",
+    "products": [
+      {
+        "title": "Loungemöbels",
+        "text": "Bequeme Lounge-Sets för Terrass un Tuun. Wedderfest, pleegeleicht un in veel Designs leverbaar.",
+        "details": [
+          "Polyrattan-Geflechte (wedderfest)",
+          "Aluminium-Rahmen (licht un stabil)",
+          "UV-bestännige Polster",
+          "Modulare Systeme"
+        ]
+      },
+      {
+        "title": "Strandkörv",
+        "text": "Echte ostfreesche Strandkörv — handflochten un in veel Farven un Dessins. Een Stück Noordsee för juw Tuun.",
+        "details": [
+          "1-Sitter un 2-Sitter",
+          "Volllieger-Funktschoon",
+          "Hand-geflochten Wiekerbody",
+          "Hunderte Stoffen to Utwahl"
+        ]
+      },
+      {
+        "title": "Outdoormöbels",
+        "text": "Eettischen, Stöhl un Bänke ut Aluminium, Teak oder Polyrattan. För gesellige Stünnen buten.",
+        "details": [
+          "Teak (FSC-zertifizeert)",
+          "Aluminium (pulverbeschichtet)",
+          "Stapel- un Klappstuhl",
+          "Uttreckbare Tischen"
+        ]
+      },
+      {
+        "title": "Sünnenschirme",
+        "text": "Grote Ampelschirme, klassische Mittelmastschirme un Gastronomie-Schirme. UV-Schutz in elegant Design.",
+        "details": [
+          "Ampelschirme bit 4m Dörmeter",
+          "360° dreibaar",
+          "Easy-Lift-System",
+          "Windstabil bit Windstärk 6"
+        ]
+      }
+    ],
+    "advantages_label": "Juw Vördeelen",
+    "advantages_title": "Tuunmöbels bi Everwien",
+    "advantages": [
+      {
+        "title": "2.000 m² Utstellung",
+        "text": "Proovsitten, anfaten, verglieken — in uns grote Utstellung."
+      },
+      {
+        "title": "Markenqualität",
+        "text": "Blots utsoochte Marken — för Langlebigkeit un Design."
+      },
+      {
+        "title": "Levering & Opbuu",
+        "text": "Wi levert un buut juw nee Möbels bi jo op."
+      }
+    ],
+    "cta_title": "Besökt uns Utstellung",
+    "cta_text": "Över 2.000 m² Tuunmöbels, Strandkörv un mehr — to'n Anfaten un Proovsitten.",
+    "cta_btn": "Anfahrt & Ööpnungstieden",
+    "related_title": "Verwandte Kategorien"
+  },
+  "raumdesign": {
+    "hero_title": "Ruum & Design",
+    "hero_subtitle": "Gardiinen, Fläkenvörhäng un Wohnaccessoires — för Ruums, de begeistert.",
+    "breadcrumb": "Ruumdesign",
+    "products_label": "Uns Ruumdesign-Lösungen",
+    "products_title": "Individuelle Gestaltung för juw Tohuus",
+    "products_subtitle": "Of klassische Gardiin, modernen Fläkenvörhang oder stilvolles Accessoire — wi gestalten juw Ruums na juw Wünschen.",
+    "products": [
+      {
+        "title": "Gardiinen",
+        "text": "Van transparent bit blickdicht, van klassisch bit modern — Gardiinen na Maat, in hunderte Stoffen un Farven. Professionell konfektschoneert.",
+        "details": [
+          "Store-Gardiinen (transparent)",
+          "Verdunkelungsgardiinen",
+          "Thermogardiin (isoleerend)",
+          "Ösengardiinen, Schlaufengardiinen"
+        ]
+      },
+      {
+        "title": "Fläkenvörhäng",
+        "text": "Moderne Fläkenvörhäng för grote Finsterfläken. Glatte Paneele, de elegant glieden un flexibel kombineert warrt.",
+        "details": [
+          "Bit 6 Löpscheenen",
+          "Elektrische Bedeenung möglich",
+          "Verdunkelung oder transparent",
+          "Individuell bedruckbaar"
+        ]
+      },
+      {
+        "title": "Wohnaccessoires",
+        "text": "Küssen, Dischdecken, Dekostoffen un mehr — de perfekte Ergänzung för juw Ruumkonzept. Allens opeenanner afstimmt.",
+        "details": [
+          "Küssen un Dekoküssen",
+          "Dischdecken un Tischläufer",
+          "Dekostoffen as Meeterware",
+          "Individuell nach Wunsch"
+        ]
+      }
+    ],
+    "advantages_label": "Juw Vördeelen",
+    "advantages_title": "Ruumdesign van Everwien",
+    "advantages": [
+      {
+        "title": "Persöönliche Beratung",
+        "text": "Wi koomt mit Stoffmusters to jo na Huus — oder besökt uns Utstellung."
+      },
+      {
+        "title": "Maatkonfektion",
+        "text": "Elke Gardiin warrt exakt na juw Maaten in uns Warksteed näiht."
+      },
+      {
+        "title": "Montage inklusive",
+        "text": "Wi monteert Scheenen, Stangen un Gardiinen — fachgerecht un suver."
+      }
+    ],
+    "cta_title": "Nee Gardiinen nödig?",
+    "cta_text": "Wi beraat jo persöönlich — bi jo to Huus oder in uns Utstellung in Nörden.",
+    "cta_btn": "Beratung anfragen",
+    "related_title": "Verwandte Kategorien"
+  },
+  "kontakt": {
+    "hero_title": "Kontakt opnehmen",
+    "hero_subtitle": "Wi freut uns op juw Naricht — oder besökt uns persöönlich in Nörden. Wi snackt ok Platt!",
+    "breadcrumb": "Kontakt",
+    "form_title": "Schrievt uns",
+    "form_subtitle": "Füllt dat Formular ut un wi meldt uns so gau as möglich bi jo.",
+    "form_name": "Naam *",
+    "form_name_placeholder": "Juw vulle Naam",
+    "form_name_error": "Geeft juw Naam in.",
+    "form_email": "E-Mail *",
+    "form_email_placeholder": "juw@email.de",
+    "form_email_error": "Geeft een gültige E-Mail-Adress in.",
+    "form_phone": "Telefoon",
+    "form_phone_placeholder": "04931 / ...",
+    "form_topic": "Thema *",
+    "form_topic_placeholder": "Sökt ut...",
+    "form_topic_error": "Sökt een Thema ut.",
+    "form_topic_options": [
+      {
+        "value": "glasdaecher",
+        "label": "Glasdäker & Överdakungen"
+      },
+      {
+        "value": "sonnenschutz",
+        "label": "Sünnenschutz"
+      },
+      {
+        "value": "insektenschutz",
+        "label": "Insektenschutz"
+      },
+      {
+        "value": "gartenmoebel",
+        "label": "Tuunmöbels"
+      },
+      {
+        "value": "raumdesign",
+        "label": "Ruumdesign"
+      },
+      {
+        "value": "karriere",
+        "label": "Karriere"
+      },
+      {
+        "value": "sonstiges",
+        "label": "Wat anners"
+      }
+    ],
+    "form_message": "Naricht *",
+    "form_message_placeholder": "Wo köönt wi jo helpen?",
+    "form_message_error": "Geeft een Naricht in.",
+    "form_file": "Datei anhangen (optionaal)",
+    "form_file_text": "Klickt oder Datei hier hensleepen (PDF, JPG, PNG)",
+    "form_callback": "Ik wünsch een Torüchrop",
+    "form_privacy": "Ik heb de Datenschutzverklaaring lesen un stimm de Verarbeitung van mien Daten to. *",
+    "form_privacy_error": "Stimmt de Datenschutzverklaaring to.",
+    "form_submit": "Naricht senden",
+    "form_success": "Naricht sendt!",
+    "sidebar_contact_title": "Kontaktdaten",
+    "sidebar_address": "Adress",
+    "sidebar_phone": "Telefoon",
+    "sidebar_email": "E-Mail",
+    "sidebar_hours_title": "Ööpnungstieden",
+    "sidebar_hours_weekday": "Ma – Fr: 9:00 – 18:00 Ühr",
+    "sidebar_hours_saturday": "Saterdag: 10:00 – 14:00 Ühr",
+    "sidebar_hours_sunday": "Sünndag: sloten",
+    "sidebar_directions_title": "Anfahrt",
+    "sidebar_directions_text": "Ut Richtung Emden/Auerk: B72 Richtung Nörden, Affahrt Gewerbegebied.\n\nUt Richtung Wilhelmshaven: B210 över Marienhafe na Nörden.\n\nKostenlose Parkplaatsen direkt vör de Utstellung."
+  },
+  "karriere": {
+    "hero_title": "Handwark mit Toekunft",
+    "hero_subtitle": "Warr Deel van een Team, dat siet över 145 Johr mit Leidenschaft Qualität levert.",
+    "breadcrumb": "Karriere",
+    "why_label": "Woso Everwien?",
+    "why_title": "Mehr as blots een Job",
+    "why_text1": "Bi Everwien verbinnen wi de Weerten van een traditschoonsrieken Handwarksbedriiv mit de Möglichkeiten van moderne Technik. Siet 1880 maakt wi in Nörden Sünnenschutz, Glasdäker un Ruumlösungen — un sökt Minschen, de disse Traditschoon mit uns wiedermaakt.",
+    "why_text2": "Of erfahren Monteur, engageerte Verkoopsberaaterin oder motiviert Azubi — bi uns tellt Teamgeist, Qualitätsbewusstsien un de Freud an't Handwark.",
+    "benefits_label": "Juw Vördeelen",
+    "benefits_title": "Dat beed wi jo",
+    "benefits": [
+      {
+        "title": "Traditschoon & Innovatschoon",
+        "text": "145+ Johr Erfahrung drept modernste Technik un Materialen."
+      },
+      {
+        "title": "Familiäres Team",
+        "text": "Överschaubare Teamgrööt mit persöönlichen Ümgang un korte Weegen."
+      },
+      {
+        "title": "Regioon Ostfreesland",
+        "text": "Leven un arbeiden, wo anner Minschen Urlaub maakt — an de Noordseekust."
+      },
+      {
+        "title": "Wiederbildung",
+        "text": "Regelmätige Schulungen un Fortbildungen — wi investeert in juw Weten."
+      },
+      {
+        "title": "Seker Arbeidsplaats",
+        "text": "Een Bedriiv mit 145 Johr Geschicht — dat spreckt för Stabilität."
+      },
+      {
+        "title": "Moderne Utrüstung",
+        "text": "Professioneel Warktuug un Fahrtüüge — dormit Se goot arbeiden köönt."
+      }
+    ],
+    "jobs_label": "Ööpene Stellen",
+    "jobs_title": "Aktuelle Stellenangebote",
+    "jobs": [
+      {
+        "title": "Monteur/in — Sünnenschutz & Glasdäker",
+        "text": "Montage un Installatschoon van Glasdäker, Markiesen un Sünnenschutzsysteme bi uns Kunden vör Ort.",
+        "tags": [
+          "Vulltied",
+          "Nörden",
+          "Af sofort"
+        ]
+      },
+      {
+        "title": "Azubi — Rollladen- un Sünnenschutzmechatroniker/in",
+        "text": "Leer een toekumftsekeren Beroop mit Technik, Handwark un Kundenkontakt. Start: August 2026.",
+        "tags": [
+          "Utbildung",
+          "Nörden",
+          "Aug 2026"
+        ]
+      },
+      {
+        "title": "Verkoopsberater/in — Utstellung & Beratung",
+        "text": "Beratung van uns Kunden in de Utstellung un bi Huusbesöken. Freud an de Ümgang mit Minschen vörutsettt.",
+        "tags": [
+          "Vull-/Deeltied",
+          "Nörden",
+          "Af sofort"
+        ]
+      }
+    ],
+    "initiative_label": "Initiativbewerbung",
+    "initiative_title": "Keen passende Stell dorbi?",
+    "initiative_subtitle": "Wi freut uns alltied över motivierte Bewerbungen — stüürt uns eenfach juw Ünnerlagen.",
+    "initiative_name": "Naam *",
+    "initiative_email": "E-Mail *",
+    "initiative_message": "Juw Naricht *",
+    "initiative_message_placeholder": "Vertellt uns van jo...",
+    "initiative_file": "Lebenslauf anhangen",
+    "initiative_submit": "Bewerbung afsenden",
+    "initiative_success": "Bewerbung sendt!"
+  },
+  "ueber_uns": {
+    "hero_title": "Över uns",
+    "hero_subtitle": "Siet 1880 verbinnen wi ostfreesk Handwark mit Innovatschoon. Leert uns kennen.",
+    "breadcrumb": "Över uns",
+    "chronik_label": "Uns Geschicht",
+    "chronik_title": "145+ Johr Everwien",
+    "chronik_subtitle": "Van de lütte Warksteed to'n modernen Handwarksbedriiv — een Familiengeschicht ut Nörden.",
+    "chronik": [
+      {
+        "year": "1880",
+        "text": "Gründung dör Ortgies Janssen Everwien as Sattler am Neuen Weg 239, Norden. Eerst Sattlerarbeiten för Brauerei Doornkaat, denn Polstermöbels + Tapezierarbeiten."
+      },
+      {
+        "year": "1894",
+        "text": "Ehrenpreis op 1. Ostfreesche Landwirtschaftliche Gewerbeausstellung."
+      },
+      {
+        "year": "1895",
+        "text": "Häuser \"Teebüs\" un \"Kofjebüs\" köfft för 3.000 Reichstaler."
+      },
+      {
+        "year": "1909",
+        "text": "Söhn Folrich Everwien leggt Meisterprüfung af — 2. Generatschoon."
+      },
+      {
+        "year": "1938",
+        "text": "3. Generatschoon: Ortgies Everwien leggt Meisterprüfung af."
+      },
+      {
+        "year": "1957",
+        "text": "Moderniseering mit Beton un Glas, grootzügige Schaufensteranlagen."
+      },
+      {
+        "year": "1974",
+        "text": "4. Generatschoon Günter Everwien — Utbreitung üm Rollladen-, Jalousetten- un Markisenbuu."
+      },
+      {
+        "year": "1976",
+        "text": "Eerste Fertigungshalle 600 m² an't Nörder Tief 43."
+      },
+      {
+        "year": "1984",
+        "text": "Fertigungshalle vergröttert, Plissees un Rollos nee in't Sortiment."
+      },
+      {
+        "year": "1992",
+        "text": "5. Generatschoon: Folkert Everwien (Meister + Architekt) treedt in den Bedriiv in."
+      },
+      {
+        "year": "Vandaag",
+        "text": "~40 Mitarbeiters, 2.000 m² Utstellung, egen Produktschoon."
+      }
+    ],
+    "werte_label": "Uns Weerten",
+    "werte_title": "Wofür wi staht",
+    "werte": [
+      {
+        "title": "Qualität",
+        "text": "Elk Produkt warrt sörgfältig fertigt un prööft. Wi staht för handwarkliche Perfektschoon un langlebige Materialen."
+      },
+      {
+        "title": "Regionalität",
+        "text": "Wi maakt in Nörden, beraat in de Regioon un stärkt Ostfreesland as Wirtschaftsstandort."
+      },
+      {
+        "title": "Nachhaltigkeit",
+        "text": "Langlebige Produkten statt Wegsmietmentalität. Energieeffizienten Sünnenschutz spaart Heit- un Köhlkosten."
+      }
+    ],
+    "team_label": "Uns Team",
+    "team_title": "Minschen mit Leidenschaft",
+    "team_text1": "Uns Team besteiht ut erfahrene Handwarkers, kreative Beraters un engageerte Azubis. Wat uns verbindt: de Freud doran, för uns Kunden de besten Lösungen to finnen.",
+    "team_text2": "Besökt uns in uns 2.000 m² groten Musterutstellung in Nörden — hier köönt Se uns Produkten live beleven un sik van uns Team beraten laten.",
+    "team_link_text": "Uns Team kennenleern",
+    "team_cta": "Utstellung besöken",
+    "partners_label": "Uns Partners",
+    "partners_title": "Starke Marken, starke Partners",
+    "partners_subtitle": "Wi arbeidet utslutend mit renommeerte Herstellers tosamen, üm jo höögste Qualität to garanteeren.",
+    "cta_title": "Leert uns kennen",
+    "cta_text": "Besökt uns Utstellung oder maakt een Beratungstermin ut — wi freut uns op jo.",
+    "cta_btn": "Kontakt opnehmen"
+  },
+  "team": {
+    "hero_title": "Uns Team",
+    "hero_subtitle": "De Minschen achter Everwien — Handwarkers, Beraters un Organisatoren mit Leidenschaft.",
+    "breadcrumb": "Team",
+    "intro_text": "Wi sünd Everwien — een Familienbedriiv siet 1880",
+    "intro_subtitle": "Rund 40 Mitarbeiters in 5. Generatschoon — van Meister bit Monteur, van Beratung bit Verwaltung.",
+    "categories": [
+      {
+        "id": "geschaeftsfuehrung",
+        "title": "Geschäftsföhrung",
+        "members": [
+          {
+            "name": "Folkert Everwien",
+            "role": "Geschäftsföhrer, 5. Generatschoon",
+            "photo": "folkert-everwien.jpg",
+            "text": "Siet 1992 föhrt Folkert Everwien den Familienbedriiv in 5. Generatschoon. Meister im Raumausstatterhandwark un studierter Architekt."
+          },
+          {
+            "name": "Heike Everwien",
+            "role": "Geschäftsleitung & Verwaltung",
+            "photo": "team-04.jpg",
+            "text": "Organiseert de Verwaltung un höllt den Laden tosamen."
+          }
+        ]
+      },
+      {
+        "id": "meister",
+        "title": "Meisters & Warkstedenleitung",
+        "members": [
+          {
+            "name": "Thomas Janssen",
+            "role": "Werkstattleiter",
+            "photo": "team-01.jpg",
+            "text": "Över 25 Johr Erfahrung in Sünnenschutz un Glasdak-Konstruktschoon."
+          },
+          {
+            "name": "Michael Bruns",
+            "role": "Meister Rollladen- und Sünnenschutzmechatronik",
+            "photo": "team-09.jpg",
+            "text": "Uns Spezialist för Smart-Home-Stüürungen un Elektromotoren."
+          },
+          {
+            "name": "Stefan de Vries",
+            "role": "Meister Raumausstattung",
+            "photo": "team-06.jpg",
+            "text": "Van Gardiinen bit to Polsterarbeiten — Stefan is uns Ruumdesign-Experte."
+          }
+        ]
+      },
+      {
+        "id": "montage",
+        "title": "Montage-Teams",
+        "members": [
+          {
+            "name": "Jan-Hendrik Müller",
+            "role": "Teamleiter Montage Glasdäker",
+            "photo": "team-02.jpg",
+            "text": "Föhrt uns Glasdak-Team mit Sörgfalt un Präzisioon."
+          },
+          {
+            "name": "Enno Dirks",
+            "role": "Monteur Sünnenschutz",
+            "photo": "team-03.jpg",
+            "text": "Markiesen, Rollladen un Raffstores — Enno monteert allens."
+          },
+          {
+            "name": "Klaas Fokken",
+            "role": "Monteur Glasdäker",
+            "photo": "team-08.jpg",
+            "text": "Seker un schnell — Klaas is jede Överdakung gewassen."
+          }
+        ],
+        "plus_text": "... un 12 weitere Monteure in uns Teams"
+      },
+      {
+        "id": "beratung",
+        "title": "Beratung & Verkoopsmannskupp",
+        "members": [
+          {
+            "name": "Imke Gerdes",
+            "role": "Beraterin Sünnenschutz & Glasdäker",
+            "photo": "team-05.jpg",
+            "text": "Findt för elk Projekt de passende Lösung — mit Hart un Verstand."
+          },
+          {
+            "name": "Frauke Tammena",
+            "role": "Beraterin Ruumdesign & Gardiinen",
+            "photo": "team-10.jpg",
+            "text": "Stoffen, Farven un Formen — Frauke hett dat Oog för't Detail."
+          }
+        ],
+        "plus_text": "... un 3 weitere Berater/innen"
+      },
+      {
+        "id": "verwaltung",
+        "title": "Verwaltung & Organisation",
+        "members": [],
+        "plus_text": "In uns Verwaltung sünd 4 Mitarbeiters aktiv, de sik üm Buchhaltung, Personalwesen un Kundenkommunikatschoon kümmert."
+      }
+    ],
+    "karriere_link_text": "Warr Deel van uns Team",
+    "karriere_link_url": "/plt/karriere",
+    "cta_title": "Warr Deel van uns Team",
+    "cta_text": "Wi sökt alltied engageerte Minschen — of Monteur, Berater oder Azubi. Kiek di uns Stellenangebote an!",
+    "cta_btn": "Karriere bi Everwien"
+  },
+  "faq": {
+    "hero_title": "Faken stellt Fragen",
+    "hero_subtitle": "Hier finnt Se Antworden op de wichtigsten Fragen rund üm uns Produkten un Leistungen.",
+    "breadcrumb": "FAQ",
+    "categories": [
+      {
+        "title": "Glasdäker & Överdakungen",
+        "questions": [
+          {
+            "q": "Wat kost een Terrassenöverdakung?",
+            "a": "De Kosten hängt af van Grööt, Material un Utstatung. Een eenfache Terrassenöverdakung fangt bi ca. 5.000 € an, een vull utstatten Sommertuun kann 20.000 € un mehr kosten. Wi maakt jo geern een individuelles Angebood — natüürlich kostenlos un unverbindlich."
+          },
+          {
+            "q": "Wat is de Ünnerscheed twüschen Wintertuun un Sommertuun?",
+            "a": "Een Wintertuun is een vullweertig Wohnruum mit Warmschutzverglaasung un Heitung — ganzjährig bruukbaar. Een Sommertuun is een verglaaste Terrassenöverdakung ahn Isoleerung, ideaal för Fröhjohr bit Harvst. De Sommertuun is günstiger un bruukt in de Reegel keen Baugenehmigung."
+          },
+          {
+            "q": "Bruuk ik een Baugenehmigung för een Glasdak?",
+            "a": "Dat hängt af van de Grööt un juw Bundesland. In Neddersassen sünd Terrassenöverdakungen bit to een bestimmte Grööt genehmigungsfree. Wintertüüns as Wohnruumutbreitung braukt in de Reegel een Genehmigung. Wi beraat jo geern un övernehmt op Wunsch de Antragsstellung."
+          },
+          {
+            "q": "Wo lang düürt de Montage van een Glasdak?",
+            "a": "Een Standard-Terrassenöverdakung monteert wi in 2–3 Warkdaag. Sommertüüns mit Siedenverglasung braukt 3–5 Daag. De genau Duur hängt af van de Grööt un Utstatung — wi besnackt den Tiedplaan vöraf mit jo."
+          }
+        ]
+      },
+      {
+        "title": "Sünnenschutz",
+        "questions": [
+          {
+            "q": "Kann ik Sünnenschutz nachrüsten?",
+            "a": "Ja, so goot as all uns Sünnenschutzlösungen laat sik problemlos nachrüsten. Markiesen, Rollladen, Raffstores un Plissees köönt an bestahn Gebüüden monteert warrt. Wi koomt to jo, nehmt Maat un finnt de optimale Lösung."
+          },
+          {
+            "q": "Wo pleeg ik mien Markies richtig?",
+            "a": "Regelmätig mit een sachte Bössel drööch afbössen. Bi starkere Verschmutzung lauwarm mit milde Seepenlösung reinigen un goot drögen laten. Fahrt de Markies bi Storm un Duuregen in. Wi beedt ok professionelle Reinigung un Imprägneering an."
+          },
+          {
+            "q": "Beed ji Smart-Home-Stüürungen an?",
+            "a": "Ja! Wi integreert juw Sünnenschutz in gängige Smart-Home-Systeme (z.B. Somfy TaHoma, Homematic, KNX). Stüürung per App, Spraakassistent oder vullautomatisch över Sünn-, Wind- un Regensensoren."
+          },
+          {
+            "q": "Wat is beter: Markies oder Raffstore?",
+            "a": "Dat hängt af van'n Insatzort. Markiesen eigent sik heel goot för Terrassen un Balkons — se spendt grootflächig Schatten. Raffstores (Butenjalousien) sünd ideaal för Finsters un Fassaden — se beedt präzise Lichtstüürung bi vulle Döörsiecht."
+          }
+        ]
+      },
+      {
+        "title": "Service & Beratung",
+        "questions": [
+          {
+            "q": "Kann ik de Utstellung ahn Termin besöken?",
+            "a": "Natüürlich! Uns 2.000 m² grote Musterutstellung in Nörden köönt Se tiedens de Ööpnungstieden (Ma–Fr 9–18 Ühr, Sa 10–14 Ühr) jedertieds ahn Termin besöken. För een utföhrliche persöönliche Beratung empfehlt wi een Terminvereenbarung."
+          },
+          {
+            "q": "Levert ji ok buuten Ostfreesland?",
+            "a": "Ja! Uns Kerngebied is Ostfreesland — Nörden, Auerk, Emden, Leer un Ümgebung. Wi levert un monteert oaber ok in'n heelen Noordwesten van Düütschland."
+          },
+          {
+            "q": "Beed ji een Torüchropservice an?",
+            "a": "Ja, Se köönt över uns Kontaktformular een Torüchrop anfragen. Haakt eenfach 'Ik wünsch een Torüchrop' an un wi meldt uns tiedsnah bi jo — in de Reegel noch an desülvige Warkdag."
+          },
+          {
+            "q": "Beed ji ok Wartung un Reparatur an?",
+            "a": "Natüürlich! Wi beedt Wartung, Inspektschoon un Reparatur för all uns Produkten an — ok för Fremdprodukten."
+          }
+        ]
+      },
+      {
+        "title": "Bestellung & Garantie",
+        "questions": [
+          {
+            "q": "Beed ji Finanzierung an?",
+            "a": "Ja, wi beedt in Tosammenarbeit mit uns Finanzierungspartners flexible Ratenbetahlung an. Of Glasdak, Markies oder Tuunmöbels — snackt uns dorbi eenfach an."
+          },
+          {
+            "q": "Welke Garantie krieg ik?",
+            "a": "Mindestens 5 Johr op all Produkten. Glasdäker un Terrassenöverdakungen: bit to 10 Johr op de Konstruktschoon. Motoren un Stüürungen: je na Hersteller 5–7 Johr."
+          },
+          {
+            "q": "Wo lang düürt dat van de Bestellung bit to de Montage?",
+            "a": "De Levertied varieert je na Produkt: Markiesen un Rollladen ca. 3–4 Weken, Terrassenöverdakungen ca. 4–6 Weken, Sommertüüns ca. 6–8 Weken."
+          },
+          {
+            "q": "Gifft dat een Anbetahlung?",
+            "a": "Je na Projektgrööt biddt wi üm een Anbetahlung van 30–50% bi Opdrachtserteilung. De Restbetrag warrt na erfolgrieke Montage un Afnaam fällig."
+          }
+        ]
+      }
+    ],
+    "more_questions": "Juw Fraag weer nich dorbi?",
+    "more_cta": "Fragt uns direkt"
+  },
+  "footer": {
+    "brand_text": "Sünnenschutz & Ruumdesign ut Nörden/Ostfreesland. Qualität ut egen Produktschoon siet 1880.",
+    "products": "Produkten",
+    "company": "Bedriiv",
+    "contact": "Kontakt",
+    "hours": "Ma–Fr: 9:00–18:00\nSa: 10:00–14:00",
+    "copyright": "© 2026 Sünnenschutz & Ruumdesign Everwien. All Rechten vörbeholen.",
+    "sayings": [
+      "Wat de Buur nich kennt, dat frett he nich — oaber bi uns lohnt sik dat Kieken!",
+      "Liever een goden Sünnenschutz as een roden Kopp.",
+      "In Ostfreesland seggt wi: Eerst kummt de Tee, denn de Markies.",
+      "Moin is keen Dagestied, Moin is een Lebensgefööl!",
+      "Achter elke goode Terrass steiht een Everwien-Dak.",
+      "Wi maakt dat — dat is uns Ambacht siet 1880.",
+      "Beter een Glasdak as Regen in'n Nacken."
+    ]
+  },
+  "not_found": {
+    "title": "Dat hebbt wi nich funnen!",
+    "subtitle": "Is woll achter de Markise versteken...",
+    "game_title": "Fang de Sünn!",
+    "game_instruction": "Beweeg de Markies un fang de Sünn in — klick oder tipp op de Sünn!",
+    "game_score": "Fangen",
+    "game_win": "Heel goot! Du hest de Sünn fungen!",
+    "back_home": "Trüch na de Startsied",
+    "back_contact": "Oder snack mit uns"
+  },
+  "cta_consultation": "Kostenlose Beratung anfragen",
+  "cta_callback": "Torüchrop vereinbaren",
+  "more_info": "Mehr erfahren"
+}

@@ -1,0 +1,900 @@
+{
+  "lang": "en",
+  "lang_code": "en",
+  "lang_name": "English",
+  "loading": "Loading...",
+  "nav": {
+    "glasdaecher": "Glass Roofs",
+    "sonnenschutz": "Sun Protection",
+    "gartenmoebel": "Garden Furniture",
+    "raumdesign": "Interior Design",
+    "insektenschutz": "Insect Screens",
+    "ueber_uns": "About Us",
+    "team": "Team",
+    "karriere": "Careers",
+    "faq": "FAQ",
+    "kontakt": "Contact",
+    "startseite": "Home",
+    "impressum": "Legal Notice",
+    "datenschutz": "Privacy Policy"
+  },
+  "dark_mode": {
+    "toggle_light": "Light mode",
+    "toggle_dark": "Dark mode"
+  },
+  "trust_bar": {
+    "since": "Since 1880",
+    "exhibition": "2,000 m² Showroom",
+    "production": "Own Production",
+    "consultation": "Free Consultation"
+  },
+  "home": {
+    "hero_title": "Your Home. Perfectly Protected.",
+    "hero_subtitle": "Sun protection, glass roofs & interior design from East Frisia. Since 1880.",
+    "hero_cta": "Request Free Consultation",
+    "hero_cta2": "Visit Showroom",
+    "services_label": "Our Services",
+    "services_title": "Everything for Your Home",
+    "services_subtitle": "From patio covers to interior design — everything from one source, crafted in our own production facility.",
+    "card_glasdaecher_title": "Glass Roofs & Canopies",
+    "card_glasdaecher_text": "Patio roofs, conservatories & canopies",
+    "card_sonnenschutz_title": "Sun Protection",
+    "card_sonnenschutz_text": "Awnings, shutters & smart home controls",
+    "card_insektenschutz_title": "Insect Screens",
+    "card_insektenschutz_text": "For windows & doors",
+    "card_gartenmoebel_title": "Garden Furniture",
+    "card_gartenmoebel_text": "Lounge furniture, beach chairs & more",
+    "card_raumdesign_title": "Interior Design",
+    "card_raumdesign_text": "Curtains, drapes & accessories",
+    "why_label": "Why Everwien?",
+    "why_title": "Tradition Meets Innovation",
+    "why_subtitle": "For over 145 years, we've been combining East Frisian craftsmanship with modern solutions for your home.",
+    "why_production_title": "Own Production",
+    "why_production_text": "No mass production — every product is individually crafted in our workshop in Norden.",
+    "why_experience_title": "145+ Years of Experience",
+    "why_experience_text": "Since 1880, the Everwien name has stood for quality, reliability and craftsmanship perfection.",
+    "why_consultation_title": "On-Site Consultation",
+    "why_consultation_text": "Visit our 2,000 m² showroom in Norden — free and without obligation.",
+    "gallery_label": "Our Projects",
+    "gallery_title": "Inspiration for Your Home",
+    "faq_label": "Common Questions",
+    "faq_title": "We Have the Answers",
+    "faq_all": "View All Questions",
+    "contact_label": "Contact",
+    "contact_title": "Visit Us in Norden",
+    "contact_address_title": "Address",
+    "contact_phone_title": "Phone & Email",
+    "contact_hours_title": "Opening Hours",
+    "contact_hours": "Mon – Fri: 9:00 AM – 6:00 PM\nSat: 10:00 AM – 2:00 PM\nSun: closed",
+    "contact_cta": "Get in Touch",
+    "karriere_title": "Join Our Team",
+    "karriere_text": "We're looking for dedicated craftspeople, apprentices and sales consultants.",
+    "karriere_cta": "View Open Positions",
+    "faq_questions": [
+      {
+        "q": "What does a patio cover cost?",
+        "a": "Costs depend on size, material and features. A glass roof starts at approx. €5,000 — we'll gladly calculate individual solutions for you personally. Schedule a free consultation!"
+      },
+      {
+        "q": "How long does installation take?",
+        "a": "Depending on the project, installation takes between one and five working days. Patio covers are often done in 2–3 days, conservatories need a bit more time."
+      },
+      {
+        "q": "Do you offer financing?",
+        "a": "Yes, in cooperation with our partners, we offer flexible financing options. Just ask us during your consultation appointment."
+      },
+      {
+        "q": "Can I visit the showroom without an appointment?",
+        "a": "Of course! Our 2,000 m² showroom in Norden can be visited during opening hours at any time without an appointment."
+      },
+      {
+        "q": "Do you deliver outside East Frisia?",
+        "a": "Yes! We deliver and install throughout northwestern Germany. Our core area is East Frisia and the region around Norden, Aurich, Emden and Leer."
+      }
+    ]
+  },
+  "glasdaecher": {
+    "hero_title": "Glass Roofs & Canopies",
+    "hero_subtitle": "From patio covers to conservatories — your outdoor oasis, protected in any weather.",
+    "breadcrumb": "Glass Roofs",
+    "products_label": "Our Glass Roof Solutions",
+    "products_title": "The Right Cover for Every Need",
+    "products_subtitle": "Whether classic patio roof, light-filled conservatory or elegant wind protection — we craft everything in our own production in Norden.",
+    "products": [
+      {
+        "title": "Patio Roofs",
+        "text": "High-quality aluminium constructions with safety glass. Enjoy your patio in any weather — dry and protected.",
+        "details": [
+          "Aluminium frame with powder coating",
+          "Safety glass (VSG) 10mm",
+          "Integrated rainwater drainage",
+          "Available in all RAL colours"
+        ]
+      },
+      {
+        "title": "Conservatories",
+        "text": "Glazed patio covers with flexible side elements. Use your garden from spring to autumn — wind and rain protected.",
+        "details": [
+          "Glass folding walls for flexible access",
+          "No building permit needed",
+          "Integrated ventilation",
+          "Optional shading"
+        ]
+      },
+      {
+        "title": "Glass Wind Protection",
+        "text": "Elegant glass wind protection systems for patio and balcony. Protection from wind without blocking the view.",
+        "details": [
+          "Frameless or with aluminium profiles",
+          "Safety glass (ESG) 8-10mm",
+          "Full or partial glazing",
+          "Sliding or fixed elements"
+        ]
+      },
+      {
+        "title": "Front Door Canopies",
+        "text": "Stylish canopies that protect and enhance your entrance area. Available in various designs and materials.",
+        "details": [
+          "Glass-stainless steel combinations",
+          "Aluminium systems",
+          "LED lighting available",
+          "Installation in 1 day"
+        ]
+      }
+    ],
+    "advantages_label": "Your Benefits",
+    "advantages_title": "Why a Glass Roof from Everwien?",
+    "advantages": [
+      {
+        "title": "10-Year Warranty",
+        "text": "On construction and glazing — for long-term security."
+      },
+      {
+        "title": "Own Manufacturing",
+        "text": "Custom-made from our workshop in Norden — no mass production."
+      },
+      {
+        "title": "Smart Home Ready",
+        "text": "Integrated control for shading, lighting and ventilation."
+      },
+      {
+        "title": "Personal Consultation",
+        "text": "Free at your location or in our showroom."
+      }
+    ],
+    "cta_title": "Your Dream Glass Roof Awaits",
+    "cta_text": "Get free advice — on-site or in our 2,000 m² showroom in Norden.",
+    "cta_btn": "Get Advice Now",
+    "related_title": "Related Categories"
+  },
+  "sonnenschutz": {
+    "hero_title": "Sun Protection for Every Situation",
+    "hero_subtitle": "Awnings, shutters, external blinds & smart controls — for optimal climate in your home.",
+    "breadcrumb": "Sun Protection",
+    "products_label": "Our Sun Protection Solutions",
+    "products_title": "Protection from Sun, Heat & Glare",
+    "products_subtitle": "From classic awnings to intelligent controls — we offer the perfect solution for every need.",
+    "products": [
+      {
+        "title": "Awnings",
+        "text": "Folding arm, cassette and conservatory awnings in numerous colours and fabrics. With optional wind guard and electric motor.",
+        "details": [
+          "Folding arm awnings up to 7m extension",
+          "Cassette awnings (enclosed housing)",
+          "Conservatory awnings (roof-mounted)",
+          "Vertical awnings (facade)"
+        ]
+      },
+      {
+        "title": "Roller Shutters",
+        "text": "Modern roller shutters for heat insulation, sound protection and burglar resistance. Ideal for retrofitting existing buildings.",
+        "details": [
+          "Surface-mounted and built-on shutters",
+          "Aluminium or plastic slats",
+          "Electric or manual",
+          "Burglar-resistant up to RC2"
+        ]
+      },
+      {
+        "title": "Interior Solutions",
+        "text": "Pleated blinds, venetian blinds and interior roller blinds in countless colours and transparency levels. Perfect light control for every room.",
+        "details": [
+          "Pleated blinds (honeycomb for insulation)",
+          "Venetian blinds (aluminium or wood)",
+          "Interior roller blinds (blackout possible)",
+          "Panel curtains"
+        ]
+      },
+      {
+        "title": "External Blinds",
+        "text": "External venetian blinds with adjustable slats — the most effective sun protection with full daylight use and visibility.",
+        "details": [
+          "Infinitely adjustable slats",
+          "Wind and weather resistant",
+          "Optimal light control",
+          "Privacy with full ventilation"
+        ]
+      },
+      {
+        "title": "Smart Home Controls",
+        "text": "Control your sun protection via app, voice or fully automatically via sensors. We integrate all common systems.",
+        "details": [
+          "Somfy TaHoma / io-homecontrol",
+          "Homematic / KNX",
+          "Sun, wind and rain sensors",
+          "Voice control (Alexa, Google)"
+        ]
+      }
+    ],
+    "advantages_label": "Your Benefits",
+    "advantages_title": "Sun Protection from Everwien",
+    "advantages": [
+      {
+        "title": "UV Protection",
+        "text": "High-quality fabrics with up to 95% UV protection for your health."
+      },
+      {
+        "title": "Retrofit Possible",
+        "text": "Almost all our products can be easily retrofitted."
+      },
+      {
+        "title": "5-Year Warranty",
+        "text": "On all sun protection products incl. motor and controls."
+      },
+      {
+        "title": "Smart Home",
+        "text": "Integration into all common smart home systems possible."
+      }
+    ],
+    "cta_title": "Custom Sun Protection",
+    "cta_text": "We advise you for free — at your location or in our showroom in Norden.",
+    "cta_btn": "Get Advice Now",
+    "related_title": "Related Categories"
+  },
+  "insektenschutz": {
+    "hero_title": "Insect Screens for Your Home",
+    "hero_subtitle": "Fresh air without uninvited guests — custom solutions for windows and doors.",
+    "breadcrumb": "Insect Screens",
+    "products_label": "Our Insect Screen Solutions",
+    "products_title": "For Every Window and Every Door",
+    "products_subtitle": "Whether fixed frame, roller or sliding door — we find the perfect solution, precisely fitting and in premium quality.",
+    "products": [
+      {
+        "title": "Fixed Frames",
+        "text": "The classic: permanently mounted frame with fine mesh. Easy to insert, easy to clean and long-lasting.",
+        "details": [
+          "Aluminium frame in all colours",
+          "Transnocent mesh (barely visible)",
+          "Easy to clean",
+          "Pollen mesh available"
+        ]
+      },
+      {
+        "title": "Insect Screen Rollers",
+        "text": "Flexibly pull down when needed — ideal for windows and skylights. Disappears invisibly into the cassette.",
+        "details": [
+          "Cassette roller (concealed mounting)",
+          "Suitable for skylights",
+          "One-hand operation",
+          "Spring automatic"
+        ]
+      },
+      {
+        "title": "Sliding Doors",
+        "text": "For large patio doors and balcony doors. Smooth-running, stable and barrier-free threshold possible.",
+        "details": [
+          "Available up to 3m width",
+          "Barrier-free threshold 20mm",
+          "Stainless steel rollers",
+          "Double track possible"
+        ]
+      },
+      {
+        "title": "Hinged Frames",
+        "text": "For balcony doors and front doors: open and close like a second door. Robust and practical.",
+        "details": [
+          "Self-closing with magnet",
+          "180° opening",
+          "Also for wide door openings",
+          "Easy to operate"
+        ]
+      }
+    ],
+    "advantages_label": "Your Benefits",
+    "advantages_title": "Insect Screens from Everwien",
+    "advantages": [
+      {
+        "title": "Custom Made",
+        "text": "Every frame is made exactly to your window and door measurements."
+      },
+      {
+        "title": "Pollen Mesh",
+        "text": "Special mesh for allergy sufferers — up to 90% fewer pollen."
+      },
+      {
+        "title": "Easy Installation",
+        "text": "Quick, clean installation — usually without drilling."
+      }
+    ],
+    "cta_title": "Custom Insect Screens",
+    "cta_text": "We come to you, take measurements and install — everything from one source.",
+    "cta_btn": "Get Advice Now",
+    "related_title": "Related Categories"
+  },
+  "gartenmoebel": {
+    "hero_title": "Garden Furniture for Your Outdoor Paradise",
+    "hero_subtitle": "From lounge furniture to beach chairs to parasols — discover our selection in the showroom.",
+    "breadcrumb": "Garden Furniture",
+    "products_label": "Our Garden Furniture",
+    "products_title": "Quality That Delights Summer After Summer",
+    "products_subtitle": "Whether metal, wood or plastic — we only carry selected brands that meet the highest standards of design and durability.",
+    "products": [
+      {
+        "title": "Lounge Furniture",
+        "text": "Comfortable lounge sets for patio and garden. Weatherproof, easy to maintain and available in many designs.",
+        "details": [
+          "Poly-rattan weave (weatherproof)",
+          "Aluminium frame (light and stable)",
+          "UV-resistant cushions",
+          "Modular systems"
+        ]
+      },
+      {
+        "title": "Beach Chairs",
+        "text": "Authentic East Frisian beach chairs — hand-woven and in many colours and designs. A piece of the North Sea for your garden.",
+        "details": [
+          "1-seater and 2-seater",
+          "Full recline function",
+          "Hand-woven wicker body",
+          "Hundreds of fabrics to choose"
+        ]
+      },
+      {
+        "title": "Outdoor Furniture",
+        "text": "Dining tables, chairs and benches in aluminium, teak or poly-rattan. For convivial hours outdoors.",
+        "details": [
+          "Teak (FSC-certified)",
+          "Aluminium (powder-coated)",
+          "Stacking and folding chairs",
+          "Extendable tables"
+        ]
+      },
+      {
+        "title": "Parasols",
+        "text": "Large cantilever parasols, classic centre-pole parasols and commercial parasols. UV protection in elegant design.",
+        "details": [
+          "Cantilever parasols up to 4m diameter",
+          "360° rotatable",
+          "Easy-lift system",
+          "Wind-stable up to force 6"
+        ]
+      }
+    ],
+    "advantages_label": "Your Benefits",
+    "advantages_title": "Garden Furniture at Everwien",
+    "advantages": [
+      {
+        "title": "2,000 m² Showroom",
+        "text": "Try, touch, compare — in our large showroom."
+      },
+      {
+        "title": "Brand Quality",
+        "text": "Only selected brands — for durability and design."
+      },
+      {
+        "title": "Delivery & Assembly",
+        "text": "We deliver and assemble your new furniture at your home."
+      }
+    ],
+    "cta_title": "Visit Our Showroom",
+    "cta_text": "Over 2,000 m² of garden furniture, beach chairs and more — to touch and try.",
+    "cta_btn": "Directions & Hours",
+    "related_title": "Related Categories"
+  },
+  "raumdesign": {
+    "hero_title": "Interior Design",
+    "hero_subtitle": "Curtains, panel blinds and home accessories — for rooms that inspire.",
+    "breadcrumb": "Interior Design",
+    "products_label": "Our Interior Design Solutions",
+    "products_title": "Individual Design for Your Home",
+    "products_subtitle": "Whether classic curtain, modern panel blind or stylish accessory — we design your rooms to your wishes.",
+    "products": [
+      {
+        "title": "Curtains",
+        "text": "From sheer to opaque, from classic to modern — curtains made to measure, in hundreds of fabrics and colours. Professionally tailored.",
+        "details": [
+          "Sheer curtains (transparent)",
+          "Blackout curtains",
+          "Thermal curtains (insulating)",
+          "Eyelet curtains, tab-top curtains"
+        ]
+      },
+      {
+        "title": "Panel Blinds",
+        "text": "Modern panel blinds for large window areas. Smooth panels that glide elegantly and can be flexibly combined.",
+        "details": [
+          "Up to 6 tracks",
+          "Electric operation possible",
+          "Blackout or transparent",
+          "Individually printable"
+        ]
+      },
+      {
+        "title": "Home Accessories",
+        "text": "Cushions, tablecloths, decorative fabrics and more — the perfect complement to your room concept. Everything coordinated.",
+        "details": [
+          "Cushions and decorative pillows",
+          "Tablecloths and table runners",
+          "Decorative fabrics by the metre",
+          "Individually to your wishes"
+        ]
+      }
+    ],
+    "advantages_label": "Your Benefits",
+    "advantages_title": "Interior Design from Everwien",
+    "advantages": [
+      {
+        "title": "Personal Consultation",
+        "text": "We come with fabric samples to your home — or visit our showroom."
+      },
+      {
+        "title": "Custom Tailoring",
+        "text": "Every curtain is sewn exactly to your measurements in our workshop."
+      },
+      {
+        "title": "Installation Included",
+        "text": "We install rails, rods and curtains — professionally and cleanly."
+      }
+    ],
+    "cta_title": "New Curtains Needed?",
+    "cta_text": "We advise you personally — at your home or in our showroom in Norden.",
+    "cta_btn": "Request Consultation",
+    "related_title": "Related Categories"
+  },
+  "kontakt": {
+    "hero_title": "Get in Touch",
+    "hero_subtitle": "We look forward to your message — or visit us personally in Norden.",
+    "breadcrumb": "Contact",
+    "form_title": "Write to Us",
+    "form_subtitle": "Fill out the form and we'll get back to you as soon as possible.",
+    "form_name": "Name *",
+    "form_name_placeholder": "Your full name",
+    "form_name_error": "Please enter your name.",
+    "form_email": "Email *",
+    "form_email_placeholder": "your@email.com",
+    "form_email_error": "Please enter a valid email address.",
+    "form_phone": "Phone",
+    "form_phone_placeholder": "+49 4931 ...",
+    "form_topic": "Topic *",
+    "form_topic_placeholder": "Please select...",
+    "form_topic_error": "Please select a topic.",
+    "form_topic_options": [
+      {
+        "value": "glasdaecher",
+        "label": "Glass Roofs & Canopies"
+      },
+      {
+        "value": "sonnenschutz",
+        "label": "Sun Protection"
+      },
+      {
+        "value": "insektenschutz",
+        "label": "Insect Screens"
+      },
+      {
+        "value": "gartenmoebel",
+        "label": "Garden Furniture"
+      },
+      {
+        "value": "raumdesign",
+        "label": "Interior Design"
+      },
+      {
+        "value": "karriere",
+        "label": "Careers"
+      },
+      {
+        "value": "sonstiges",
+        "label": "Other"
+      }
+    ],
+    "form_message": "Message *",
+    "form_message_placeholder": "How can we help you?",
+    "form_message_error": "Please enter a message.",
+    "form_file": "Attach file (optional)",
+    "form_file_text": "Click or drag file here (PDF, JPG, PNG)",
+    "form_callback": "I would like a callback",
+    "form_privacy": "I have read the privacy policy and agree to the processing of my data. *",
+    "form_privacy_error": "Please agree to the privacy policy.",
+    "form_submit": "Send Message",
+    "form_success": "Message sent!",
+    "sidebar_contact_title": "Contact Details",
+    "sidebar_address": "Address",
+    "sidebar_phone": "Phone",
+    "sidebar_email": "Email",
+    "sidebar_hours_title": "Opening Hours",
+    "sidebar_hours_weekday": "Mon – Fri: 9:00 AM – 6:00 PM",
+    "sidebar_hours_saturday": "Saturday: 10:00 AM – 2:00 PM",
+    "sidebar_hours_sunday": "Sunday: closed",
+    "sidebar_directions_title": "Directions",
+    "sidebar_directions_text": "From Emden/Aurich: B72 towards Norden, exit industrial area.\n\nFrom Wilhelmshaven: B210 via Marienhafe to Norden.\n\nFree parking directly in front of the showroom."
+  },
+  "karriere": {
+    "hero_title": "Craftsmanship with a Future",
+    "hero_subtitle": "Join a team that has been delivering quality with passion for over 145 years.",
+    "breadcrumb": "Careers",
+    "why_label": "Why Everwien?",
+    "why_title": "More Than Just a Job",
+    "why_text1": "At Everwien, we combine the values of a traditional craft business with the possibilities of modern technology. Since 1880, we've been manufacturing sun protection, glass roofs and room solutions in Norden — and we're looking for people who want to continue this tradition with us.",
+    "why_text2": "Whether experienced installer, dedicated sales consultant or motivated apprentice — what counts is team spirit, quality awareness and the joy of craftsmanship.",
+    "benefits_label": "Your Benefits",
+    "benefits_title": "What We Offer",
+    "benefits": [
+      {
+        "title": "Tradition & Innovation",
+        "text": "145+ years of experience meets cutting-edge technology and materials."
+      },
+      {
+        "title": "Family-Like Team",
+        "text": "Manageable team size with personal interaction and short paths."
+      },
+      {
+        "title": "East Frisia Region",
+        "text": "Live and work where others go on holiday — on the North Sea coast."
+      },
+      {
+        "title": "Further Training",
+        "text": "Regular training and development — we invest in your knowledge."
+      },
+      {
+        "title": "Secure Workplace",
+        "text": "A company with 145 years of history — that speaks for stability."
+      },
+      {
+        "title": "Modern Equipment",
+        "text": "Professional tools and vehicles — so you can work well."
+      }
+    ],
+    "jobs_label": "Open Positions",
+    "jobs_title": "Current Vacancies",
+    "jobs": [
+      {
+        "title": "Installer — Sun Protection & Glass Roofs",
+        "text": "Installation of glass roofs, awnings and sun protection systems at our customers' locations.",
+        "tags": [
+          "Full-time",
+          "Norden",
+          "Immediate"
+        ]
+      },
+      {
+        "title": "Apprentice — Roller Shutter & Sun Protection Mechatronics",
+        "text": "Learn a future-proof profession with technology, craftsmanship and customer contact. Start: August 2026.",
+        "tags": [
+          "Apprenticeship",
+          "Norden",
+          "Aug 2026"
+        ]
+      },
+      {
+        "title": "Sales Consultant — Showroom & Consulting",
+        "text": "Advising our customers in the showroom and during home visits. Enjoy working with people.",
+        "tags": [
+          "Full/Part-time",
+          "Norden",
+          "Immediate"
+        ]
+      }
+    ],
+    "initiative_label": "Speculative Application",
+    "initiative_title": "No Suitable Position?",
+    "initiative_subtitle": "We always welcome motivated applications — just send us your documents.",
+    "initiative_name": "Name *",
+    "initiative_email": "Email *",
+    "initiative_message": "Your Message *",
+    "initiative_message_placeholder": "Tell us about yourself...",
+    "initiative_file": "Attach CV",
+    "initiative_submit": "Submit Application",
+    "initiative_success": "Application sent!"
+  },
+  "ueber_uns": {
+    "hero_title": "About Us",
+    "hero_subtitle": "Since 1880, we've been combining East Frisian craftsmanship with innovation. Get to know us.",
+    "breadcrumb": "About Us",
+    "chronik_label": "Our History",
+    "chronik_title": "145+ Years of Everwien",
+    "chronik_subtitle": "From a small workshop to a modern craft business — a family story from Norden.",
+    "chronik": [
+      {
+        "year": "1880",
+        "text": "Founded by Ortgies Janssen Everwien as saddler at Neuen Weg 239, Norden. First saddlery work for Doornkaat brewery, then upholstery, wallpapering and leather goods."
+      },
+      {
+        "year": "1894",
+        "text": "Prize of honour at the 1st East Frisian Agricultural Trade Exhibition."
+      },
+      {
+        "year": "1895",
+        "text": "Houses \"Teebüs\" and \"Kofjebüs\" purchased for 3,000 Reichstaler."
+      },
+      {
+        "year": "1909",
+        "text": "Son Folrich Everwien passes master craftsman exam — 2nd generation takes over."
+      },
+      {
+        "year": "1938",
+        "text": "3rd generation: Ortgies Everwien passes master craftsman exam."
+      },
+      {
+        "year": "1957",
+        "text": "Modernisation with concrete and glass, spacious shop window displays."
+      },
+      {
+        "year": "1974",
+        "text": "4th generation Günter Everwien — expansion into roller shutters, venetian blinds and awning construction."
+      },
+      {
+        "year": "1976",
+        "text": "First production hall 600 m² at Norder Tief 43."
+      },
+      {
+        "year": "1984",
+        "text": "Production hall expanded, pleated blinds and roller blinds added to the range."
+      },
+      {
+        "year": "1992",
+        "text": "5th generation: Folkert Everwien (master craftsman and architect) joins the company."
+      },
+      {
+        "year": "Today",
+        "text": "Approximately 40 employees, 2,000 m² showroom and own production. Your partner for sun protection and interior design in East Frisia."
+      }
+    ],
+    "werte_label": "Our Values",
+    "werte_title": "What We Stand For",
+    "werte": [
+      {
+        "title": "Quality",
+        "text": "Every product is carefully manufactured and tested. We stand for craftsmanship perfection and durable materials."
+      },
+      {
+        "title": "Regionality",
+        "text": "We manufacture in Norden, consult in the region and strengthen East Frisia as a business location."
+      },
+      {
+        "title": "Sustainability",
+        "text": "Durable products instead of throwaway mentality. Energy-efficient sun protection saves heating and cooling costs."
+      }
+    ],
+    "team_label": "Our Team",
+    "team_title": "People with Passion",
+    "team_text1": "Our team consists of experienced craftspeople, creative consultants and dedicated apprentices. What connects us: the joy of finding the best solutions for our customers.",
+    "team_text2": "Visit us in our 2,000 m² showroom in Norden — here you can experience our products live and get advice from our team.",
+    "team_cta": "Visit Showroom",
+    "team_link_text": "Meet our team",
+    "partners_label": "Our Partners",
+    "partners_title": "Strong Brands, Strong Partners",
+    "partners_subtitle": "We work exclusively with renowned manufacturers to guarantee you the highest quality.",
+    "cta_title": "Get to Know Us",
+    "cta_text": "Visit our showroom or schedule a consultation — we look forward to meeting you.",
+    "cta_btn": "Get in Touch"
+  },
+  "team": {
+    "hero_title": "Our Team",
+    "hero_subtitle": "The people behind Everwien — craftsmanship, expertise and passion since 1880.",
+    "breadcrumb": "Team",
+    "intro_label": "Who We Are",
+    "intro_title": "Around 40 People, One Mission",
+    "intro_text": "From management to the installation teams — every member of our team contributes to making your home more beautiful. Get to know us.",
+    "geschaeftsfuehrung": {
+      "title": "Management",
+      "members": [
+        {
+          "name": "Folkert Everwien",
+          "role": "Managing Director, 5th Generation",
+          "photo": "folkert-everwien.jpg",
+          "text": "Since 1992, Folkert Everwien has led the family business in its 5th generation. Master craftsman in interior decoration and qualified architect."
+        },
+        {
+          "name": "Heike Everwien",
+          "role": "Business Management & Administration",
+          "photo": "team-04.jpg",
+          "text": "Organises the administration and keeps everything running smoothly."
+        }
+      ]
+    },
+    "meister": {
+      "title": "Master Craftsmen & Workshop Management",
+      "members": [
+        {
+          "name": "Thomas Janssen",
+          "role": "Workshop Manager",
+          "photo": "team-01.jpg",
+          "text": "Over 25 years of experience in sun protection and glass roof construction."
+        },
+        {
+          "name": "Michael Bruns",
+          "role": "Master Roller Shutter & Sun Protection Mechatronics",
+          "photo": "team-09.jpg",
+          "text": "Our specialist for smart home controls and electric motors."
+        },
+        {
+          "name": "Stefan de Vries",
+          "role": "Master Interior Decoration",
+          "photo": "team-06.jpg",
+          "text": "From curtains to upholstery — Stefan is our interior design expert."
+        }
+      ]
+    },
+    "montage": {
+      "title": "Installation Teams",
+      "members": [
+        {
+          "name": "Jan-Hendrik Müller",
+          "role": "Team Leader Glass Roof Installation",
+          "photo": "team-02.jpg",
+          "text": "Leads our glass roof team with care and precision."
+        },
+        {
+          "name": "Enno Dirks",
+          "role": "Installer Sun Protection",
+          "photo": "team-03.jpg",
+          "text": "Awnings, roller shutters and external blinds — Enno installs everything."
+        },
+        {
+          "name": "Klaas Fokken",
+          "role": "Installer Glass Roofs",
+          "photo": "team-08.jpg",
+          "text": "Safe and fast — Klaas is up to any roof challenge."
+        }
+      ],
+      "more_text": "... and 12 more installers in our teams"
+    },
+    "beratung": {
+      "title": "Consulting & Sales",
+      "members": [
+        {
+          "name": "Imke Gerdes",
+          "role": "Consultant Sun Protection & Glass Roofs",
+          "photo": "team-05.jpg",
+          "text": "Finds the right solution for every project — with heart and mind."
+        },
+        {
+          "name": "Frauke Tammena",
+          "role": "Consultant Interior Design & Curtains",
+          "photo": "team-10.jpg",
+          "text": "Fabrics, colours and shapes — Frauke has an eye for detail."
+        }
+      ],
+      "more_text": "... and 3 more consultants"
+    },
+    "verwaltung": {
+      "title": "Administration & Organisation",
+      "text_only": "Our administration team of 4 handles accounting, HR and customer communication."
+    },
+    "cta_title": "Want to Join Our Team?",
+    "cta_text": "We're always looking for passionate people. Check out our open positions.",
+    "cta_btn": "View Careers"
+  },
+  "faq": {
+    "hero_title": "Frequently Asked Questions",
+    "hero_subtitle": "Find answers to the most important questions about our products and services.",
+    "breadcrumb": "FAQ",
+    "categories": [
+      {
+        "title": "Glass Roofs & Canopies",
+        "questions": [
+          {
+            "q": "What does a patio cover cost?",
+            "a": "Costs depend on size, material and features. A simple patio cover starts at approx. €5,000, a fully equipped conservatory can cost €20,000 and more. We'll gladly prepare an individual quote — free and without obligation."
+          },
+          {
+            "q": "What's the difference between a wintergarden and conservatory?",
+            "a": "A wintergarden is a fully insulated, heated living space — usable year-round. A conservatory is a glazed patio cover without insulation, ideal from spring to autumn. The conservatory is more affordable and usually doesn't require a building permit."
+          },
+          {
+            "q": "Do I need a building permit for a glass roof?",
+            "a": "This depends on the size and your state. In Lower Saxony, patio covers up to a certain size are permit-free. Wintergardens as living space extensions usually require a permit. We're happy to advise and can handle the application for you."
+          },
+          {
+            "q": "How long does glass roof installation take?",
+            "a": "A standard patio cover is installed in 2–3 working days. Conservatories with side glazing need 3–5 days. The exact duration depends on size and features — we discuss the schedule with you in advance."
+          }
+        ]
+      },
+      {
+        "title": "Sun Protection",
+        "questions": [
+          {
+            "q": "Can I retrofit sun protection?",
+            "a": "Yes, almost all our sun protection solutions can be easily retrofitted. Awnings, roller shutters, external blinds and pleated blinds can be installed on existing buildings. We come to you, take measurements and find the optimal solution."
+          },
+          {
+            "q": "How do I properly care for my awning?",
+            "a": "Regularly brush dry with a soft brush. For heavier soiling, clean with lukewarm mild soap solution and let dry well. Retract the awning in storms and prolonged rain. We also offer professional cleaning and impregnation."
+          },
+          {
+            "q": "Do you offer smart home controls?",
+            "a": "Yes! We integrate your sun protection into common smart home systems (e.g. Somfy TaHoma, Homematic, KNX). Control via app, voice assistant or fully automatically via sun, wind and rain sensors."
+          },
+          {
+            "q": "Which is better: awning or external blind?",
+            "a": "It depends on the location. Awnings are excellent for patios and balconies — they provide large-area shade. External blinds are ideal for windows and facades — they offer precise light control with full visibility."
+          }
+        ]
+      },
+      {
+        "title": "Service & Consultation",
+        "questions": [
+          {
+            "q": "Can I visit the showroom without an appointment?",
+            "a": "Of course! Our 2,000 m² showroom in Norden can be visited during opening hours (Mon–Fri 9–6 PM, Sat 10–2 PM) at any time without an appointment. For a detailed personal consultation, we recommend making an appointment."
+          },
+          {
+            "q": "Do you deliver outside East Frisia?",
+            "a": "Yes! Our core area is East Frisia — Norden, Aurich, Emden, Leer and surroundings. But we also deliver and install throughout northwestern Germany."
+          },
+          {
+            "q": "Do you offer a callback service?",
+            "a": "Yes, you can request a callback via our contact form. Simply check 'I would like a callback' and we'll get back to you promptly — usually the same working day."
+          },
+          {
+            "q": "Do you also offer maintenance and repairs?",
+            "a": "Of course! We offer maintenance, inspection and repair for all our products — including third-party products."
+          }
+        ]
+      },
+      {
+        "title": "Orders & Warranty",
+        "questions": [
+          {
+            "q": "Do you offer financing?",
+            "a": "Yes, in cooperation with our financing partners, we offer flexible instalment payments. Whether glass roof, awning or garden furniture — just ask us about it."
+          },
+          {
+            "q": "What warranty do I receive?",
+            "a": "At least 5 years on all products. Glass roofs and patio covers: up to 10 years on construction. Motors and controls: 5–7 years depending on manufacturer."
+          },
+          {
+            "q": "How long from order to installation?",
+            "a": "Delivery time varies by product: awnings and shutters approx. 3–4 weeks, patio covers approx. 4–6 weeks, conservatories approx. 6–8 weeks."
+          },
+          {
+            "q": "Is there a deposit?",
+            "a": "Depending on project size, we ask for a deposit of 30–50% when the order is placed. The remaining amount is due after successful installation and acceptance."
+          }
+        ]
+      }
+    ],
+    "more_questions": "Your question wasn't listed?",
+    "more_cta": "Ask Us Directly"
+  },
+  "footer": {
+    "brand_text": "Sun protection & interior design from Norden/East Frisia. Quality from own production since 1880.",
+    "products": "Products",
+    "company": "Company",
+    "contact": "Contact",
+    "hours": "Mon–Fri: 9:00–18:00\nSat: 10:00–14:00",
+    "copyright": "© 2026 Sonnenschutz & Raumdesign Everwien. All rights reserved.",
+    "sayings": [
+      "Quality from East Frisia — since 1880.",
+      "Your partner for sun protection & interior design.",
+      "Visit our 2,000 m² showroom!",
+      "Craftsmanship with tradition and innovation.",
+      "From the North Sea to your home."
+    ]
+  },
+  "not_found": {
+    "title": "Page Not Found!",
+    "subtitle": "Oops — nothing to see here, unfortunately.",
+    "game_title": "Catch the Sun!",
+    "game_instruction": "Move the awning and catch the sun — click or tap the sun!",
+    "game_score": "Caught",
+    "game_win": "Great job! You caught the sun!",
+    "back_home": "Back to Homepage",
+    "back_contact": "Or contact us"
+  },
+  "cta_consultation": "Request Free Consultation",
+  "cta_callback": "Schedule a Callback",
+  "more_info": "Learn More"
+}

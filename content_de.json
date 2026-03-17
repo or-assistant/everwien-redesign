@@ -1,0 +1,907 @@
+{
+  "lang": "de",
+  "lang_code": "de",
+  "lang_name": "Deutsch",
+  "loading": "Wird geladen...",
+  "nav": {
+    "glasdaecher": "Glasdächer",
+    "sonnenschutz": "Sonnenschutz",
+    "gartenmoebel": "Gartenmöbel",
+    "raumdesign": "Raumdesign",
+    "insektenschutz": "Insektenschutz",
+    "ueber_uns": "Über uns",
+    "team": "Team",
+    "karriere": "Karriere",
+    "faq": "FAQ",
+    "kontakt": "Kontakt",
+    "startseite": "Startseite",
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutz"
+  },
+  "dark_mode": {
+    "toggle_light": "Licht an",
+    "toggle_dark": "Licht aus"
+  },
+  "trust_bar": {
+    "since": "Seit 1880",
+    "exhibition": "2.000 m² Ausstellung",
+    "production": "Eigene Produktion",
+    "consultation": "Kostenlose Beratung"
+  },
+  "home": {
+    "hero_title": "Ihr Zuhause. Perfekt geschützt.",
+    "hero_subtitle": "Sonnenschutz, Glasdächer & Raumdesign aus Ostfriesland. Seit 1880.",
+    "hero_cta": "Kostenlose Beratung anfragen",
+    "hero_cta2": "Ausstellung besuchen",
+    "services_label": "Unsere Leistungen",
+    "services_title": "Alles für Ihr Zuhause",
+    "services_subtitle": "Von der Terrassenüberdachung bis zum Raumdesign — alles aus einer Hand, gefertigt in unserer eigenen Produktion.",
+    "card_glasdaecher_title": "Glasdächer & Überdachungen",
+    "card_glasdaecher_text": "Terrassendächer, Sommergärten & Vordächer",
+    "card_sonnenschutz_title": "Sonnenschutz",
+    "card_sonnenschutz_text": "Markisen, Rollläden & Smart-Home-Steuerungen",
+    "card_insektenschutz_title": "Insektenschutz",
+    "card_insektenschutz_text": "Für Fenster & Türen",
+    "card_gartenmoebel_title": "Gartenmöbel",
+    "card_gartenmoebel_text": "Loungemöbel, Strandkörbe & mehr",
+    "card_raumdesign_title": "Raum & Design",
+    "card_raumdesign_text": "Gardinen, Vorhänge & Accessoires",
+    "why_label": "Warum Everwien?",
+    "why_title": "Tradition trifft Innovation",
+    "why_subtitle": "Seit über 145 Jahren verbinden wir ostfriesisches Handwerk mit modernen Lösungen für Ihr Zuhause.",
+    "why_production_title": "Eigene Produktion",
+    "why_production_text": "Keine Massenware — jedes Produkt wird in unserer Werkstatt in Norden individuell für Sie gefertigt.",
+    "why_experience_title": "145+ Jahre Erfahrung",
+    "why_experience_text": "Seit 1880 steht der Name Everwien für Qualität, Zuverlässigkeit und handwerkliche Perfektion.",
+    "why_consultation_title": "Beratung vor Ort",
+    "why_consultation_text": "Besuchen Sie unsere 2.000 m² Musterausstellung in Norden — kostenlos und unverbindlich.",
+    "gallery_label": "Unsere Projekte",
+    "gallery_title": "Inspiration für Ihr Zuhause",
+    "faq_label": "Häufige Fragen",
+    "faq_title": "Wir haben die Antworten",
+    "faq_all": "Alle Fragen ansehen",
+    "contact_label": "Kontakt",
+    "contact_title": "Besuchen Sie uns in Norden",
+    "contact_address_title": "Adresse",
+    "contact_phone_title": "Telefon & E-Mail",
+    "contact_hours_title": "Öffnungszeiten",
+    "contact_hours": "Mo – Fr: 9:00 – 18:00 Uhr\nSa: 10:00 – 14:00 Uhr\nSo: geschlossen",
+    "contact_cta": "Kontakt aufnehmen",
+    "karriere_title": "Werde Teil unseres Teams",
+    "karriere_text": "Wir suchen engagierte Handwerker/innen, Auszubildende und Verkaufsberater/innen.",
+    "karriere_cta": "Stellenangebote ansehen",
+    "faq_questions": [
+      {
+        "q": "Was kostet eine Terrassenüberdachung?",
+        "a": "Die Kosten hängen von Größe, Material und Ausstattung ab. Ein Glasdach beginnt bei ca. 5.000 € — individuelle Lösungen kalkulieren wir gerne persönlich für Sie. Vereinbaren Sie eine kostenlose Beratung!"
+      },
+      {
+        "q": "Wie lange dauert die Montage?",
+        "a": "Je nach Projekt dauert die Montage zwischen einem und fünf Werktagen. Terrassenüberdachungen sind oft in 2–3 Tagen fertig, Sommergärten benötigen etwas mehr Zeit."
+      },
+      {
+        "q": "Bieten Sie Finanzierung an?",
+        "a": "Ja, wir bieten in Zusammenarbeit mit unseren Partnern flexible Finanzierungsmöglichkeiten an. Sprechen Sie uns einfach bei Ihrem Beratungstermin darauf an."
+      },
+      {
+        "q": "Kann ich die Ausstellung ohne Termin besuchen?",
+        "a": "Selbstverständlich! Unsere 2.000 m² große Musterausstellung in Norden können Sie während der Öffnungszeiten jederzeit ohne Termin besuchen."
+      },
+      {
+        "q": "Liefern Sie auch außerhalb Ostfrieslands?",
+        "a": "Ja! Wir liefern und montieren im gesamten Nordwesten Deutschlands. Unser Kerngebiet ist Ostfriesland und die Region rund um Norden, Aurich, Emden und Leer."
+      }
+    ]
+  },
+  "glasdaecher": {
+    "hero_title": "Glasdächer & Überdachungen",
+    "hero_subtitle": "Von der Terrassenüberdachung bis zum Sommergarten — Ihre Outdoor-Oase, geschützt bei jedem Wetter.",
+    "breadcrumb": "Glasdächer",
+    "products_label": "Unsere Glasdach-Lösungen",
+    "products_title": "Für jeden Anspruch die passende Überdachung",
+    "products_subtitle": "Ob klassisches Terrassendach, lichtdurchfluteter Sommergarten oder eleganter Windschutz — wir fertigen alles in unserer eigenen Produktion in Norden.",
+    "products": [
+      {
+        "title": "Terrassendächer",
+        "text": "Hochwertige Aluminium-Konstruktionen mit Sicherheitsglas. Genießen Sie Ihre Terrasse bei jedem Wetter — trocken und geschützt.",
+        "details": [
+          "Aluminium-Tragwerk mit Pulverbeschichtung",
+          "Sicherheitsglas (VSG) 10mm",
+          "Regenwasserableitung integriert",
+          "In allen RAL-Farben lieferbar"
+        ]
+      },
+      {
+        "title": "Sommergärten",
+        "text": "Verglaste Terrassenüberdachungen mit flexiblen Seitenelementen. Nutzen Sie Ihren Garten von Frühling bis Herbst — wind- und regengeschützt.",
+        "details": [
+          "Glas-Faltwände für flexiblen Zugang",
+          "Keine Baugenehmigung nötig",
+          "Belüftung integriert",
+          "Beschattung auf Wunsch"
+        ]
+      },
+      {
+        "title": "Glas-Windschutz",
+        "text": "Elegante Glas-Windschutz-Systeme für Terrasse und Balkon. Schutz vor Wind ohne den Blick zu versperren.",
+        "details": [
+          "Rahmenlos oder mit Aluminium-Profilen",
+          "Sicherheitsglas (ESG) 8-10mm",
+          "Ganz- oder Teilverglasung",
+          "Schiebe- oder Festelement"
+        ]
+      },
+      {
+        "title": "Haustürvordächer",
+        "text": "Stilvolle Vordächer, die Ihren Eingangsbereich schützen und aufwerten. In verschiedenen Designs und Materialien erhältlich.",
+        "details": [
+          "Glas-Edelstahl-Kombinationen",
+          "Aluminium-Systeme",
+          "Mit LED-Beleuchtung lieferbar",
+          "Montage in 1 Tag"
+        ]
+      }
+    ],
+    "advantages_label": "Ihre Vorteile",
+    "advantages_title": "Warum ein Glasdach von Everwien?",
+    "advantages": [
+      {
+        "title": "10 Jahre Garantie",
+        "text": "Auf Konstruktion und Verglasung — für langfristige Sicherheit."
+      },
+      {
+        "title": "Eigene Fertigung",
+        "text": "Maßanfertigung aus unserer Werkstatt in Norden — keine Massenware."
+      },
+      {
+        "title": "Smart-Home-fähig",
+        "text": "Integrierte Steuerung für Beschattung, Beleuchtung und Belüftung."
+      },
+      {
+        "title": "Persönliche Beratung",
+        "text": "Kostenlos bei Ihnen vor Ort oder in unserer Ausstellung."
+      }
+    ],
+    "cta_title": "Ihr Traum-Glasdach wartet",
+    "cta_text": "Lassen Sie sich kostenlos beraten — vor Ort oder in unserer 2.000 m² Ausstellung in Norden.",
+    "cta_btn": "Jetzt beraten lassen",
+    "related_title": "Verwandte Kategorien"
+  },
+  "sonnenschutz": {
+    "hero_title": "Sonnenschutz für jede Situation",
+    "hero_subtitle": "Markisen, Rollläden, Raffstores & intelligente Steuerungen — für optimales Klima in Ihrem Zuhause.",
+    "breadcrumb": "Sonnenschutz",
+    "products_label": "Unsere Sonnenschutz-Lösungen",
+    "products_title": "Schutz vor Sonne, Hitze & Blendung",
+    "products_subtitle": "Von der klassischen Markise bis zur intelligenten Steuerung — wir bieten die perfekte Lösung für jeden Bedarf.",
+    "products": [
+      {
+        "title": "Markisen",
+        "text": "Gelenkarm-, Kassetten- und Wintergartenmarkisen in zahlreichen Farben und Stoffen. Mit optionalem Windwächter und Elektromotor.",
+        "details": [
+          "Gelenkarmmarkisen bis 7m Ausfall",
+          "Kassettenmarkisen (geschlossenes Gehäuse)",
+          "Wintergartenmarkisen (Aufdach)",
+          "Senkrechtmarkisen (Fassade)"
+        ]
+      },
+      {
+        "title": "Rollläden",
+        "text": "Moderne Rollläden für Wärmedämmung, Schallschutz und Einbruchsicherheit. Ideal zum Nachrüsten an bestehenden Gebäuden.",
+        "details": [
+          "Vorbau- und Aufsatzrollläden",
+          "Aluminium- oder Kunststofflamellen",
+          "Elektrisch oder per Hand",
+          "Einbruchhemmend bis RC2"
+        ]
+      },
+      {
+        "title": "Innenlösungen",
+        "text": "Plissees, Jalousien und Innenrollos in unzähligen Farben und Transparenzstufen. Perfekte Lichtsteuerung für jeden Raum.",
+        "details": [
+          "Plissees (Wabenplissee für Isolation)",
+          "Jalousien (Aluminium oder Holz)",
+          "Innenrollos (Verdunkelung möglich)",
+          "Flächenvorhänge"
+        ]
+      },
+      {
+        "title": "Raffstores",
+        "text": "Außenjalousien mit verstellbaren Lamellen — der effektivste Sonnenschutz mit voller Tageslichtnutzung und Durchsicht.",
+        "details": [
+          "Lamellen stufenlos verstellbar",
+          "Wind- und wetterfest",
+          "Optimale Lichtsteuerung",
+          "Sichtschutz bei voller Belüftung"
+        ]
+      },
+      {
+        "title": "Smart-Home-Steuerungen",
+        "text": "Steuern Sie Ihren Sonnenschutz per App, Sprache oder vollautomatisch über Sensoren. Wir integrieren alle gängigen Systeme.",
+        "details": [
+          "Somfy TaHoma / io-homecontrol",
+          "Homematic / KNX",
+          "Sonnen-, Wind- und Regensensoren",
+          "Sprachsteuerung (Alexa, Google)"
+        ]
+      }
+    ],
+    "advantages_label": "Ihre Vorteile",
+    "advantages_title": "Sonnenschutz von Everwien",
+    "advantages": [
+      {
+        "title": "UV-Schutz",
+        "text": "Hochwertige Stoffe mit bis zu 95% UV-Schutz für Ihre Gesundheit."
+      },
+      {
+        "title": "Nachrüstung möglich",
+        "text": "Fast alle unsere Produkte lassen sich problemlos nachrüsten."
+      },
+      {
+        "title": "5 Jahre Garantie",
+        "text": "Auf alle Sonnenschutz-Produkte inkl. Motor und Steuerung."
+      },
+      {
+        "title": "Smart Home",
+        "text": "Integration in alle gängigen Smart-Home-Systeme möglich."
+      }
+    ],
+    "cta_title": "Sonnenschutz nach Maß",
+    "cta_text": "Wir beraten Sie kostenlos — bei Ihnen vor Ort oder in unserer Ausstellung in Norden.",
+    "cta_btn": "Jetzt beraten lassen",
+    "related_title": "Verwandte Kategorien"
+  },
+  "insektenschutz": {
+    "hero_title": "Insektenschutz für Ihr Zuhause",
+    "hero_subtitle": "Frische Luft ohne ungebetene Gäste — maßgefertigte Lösungen für Fenster und Türen.",
+    "breadcrumb": "Insektenschutz",
+    "products_label": "Unsere Insektenschutz-Lösungen",
+    "products_title": "Für jedes Fenster und jede Tür",
+    "products_subtitle": "Ob Spannrahmen, Rollo oder Schiebetür — wir finden die perfekte Lösung, passgenau und in Premium-Qualität.",
+    "products": [
+      {
+        "title": "Spannrahmen",
+        "text": "Der Klassiker: Fest montierter Rahmen mit feinem Gewebe. Einfach einzusetzen, leicht zu reinigen und langlebig.",
+        "details": [
+          "Aluminium-Rahmen in allen Farben",
+          "Transnocent-Gewebe (kaum sichtbar)",
+          "Einfach zu reinigen",
+          "Pollengewebe lieferbar"
+        ]
+      },
+      {
+        "title": "Insektenschutz-Rollos",
+        "text": "Flexibel bei Bedarf herunterziehen — ideal für Fenster und Dachfenster. Verschwindet unsichtbar in der Kassette.",
+        "details": [
+          "Kassettenrollo (verdeckte Montage)",
+          "Für Dachfenster geeignet",
+          "Einhandbedienung",
+          "Federautomatik"
+        ]
+      },
+      {
+        "title": "Schiebetüren",
+        "text": "Für große Terrassentüren und Balkontüren. Leichtgängig, stabil und barrierefreie Schwelle möglich.",
+        "details": [
+          "Bis 3m Breite lieferbar",
+          "Barrierefreie Schwelle 20mm",
+          "Edelstahl-Laufrollen",
+          "Doppelspur möglich"
+        ]
+      },
+      {
+        "title": "Drehrahmen",
+        "text": "Für Balkontüren und Haustüren: Öffnen und schließen wie eine zweite Tür. Robust und alltagstauglich.",
+        "details": [
+          "Selbstschließend mit Magnet",
+          "180° öffenbar",
+          "Auch für breite Türöffnungen",
+          "Kinderleicht zu bedienen"
+        ]
+      }
+    ],
+    "advantages_label": "Ihre Vorteile",
+    "advantages_title": "Insektenschutz von Everwien",
+    "advantages": [
+      {
+        "title": "Maßanfertigung",
+        "text": "Jeder Rahmen wird exakt nach Ihren Fenster- und Türmaßen gefertigt."
+      },
+      {
+        "title": "Pollengewebe",
+        "text": "Spezielle Gewebe für Allergiker — bis zu 90% weniger Pollen."
+      },
+      {
+        "title": "Einfache Montage",
+        "text": "Schnelle, saubere Installation — meist ohne Bohren möglich."
+      }
+    ],
+    "cta_title": "Insektenschutz nach Maß",
+    "cta_text": "Wir kommen zu Ihnen, nehmen Maß und montieren — alles aus einer Hand.",
+    "cta_btn": "Jetzt beraten lassen",
+    "related_title": "Verwandte Kategorien"
+  },
+  "gartenmoebel": {
+    "hero_title": "Gartenmöbel für Ihr Outdoor-Paradies",
+    "hero_subtitle": "Von Loungemöbeln über Strandkörbe bis zu Sonnenschirmen — entdecken Sie unsere Auswahl in der Ausstellung.",
+    "breadcrumb": "Gartenmöbel",
+    "products_label": "Unsere Gartenmöbel",
+    "products_title": "Qualität, die Sommer für Sommer begeistert",
+    "products_subtitle": "Ob Metall, Holz oder Kunststoff — wir führen nur ausgewählte Marken, die höchsten Ansprüchen an Design und Langlebigkeit genügen.",
+    "products": [
+      {
+        "title": "Loungemöbel",
+        "text": "Bequeme Lounge-Sets für Terrasse und Garten. Wetterfest, pflegeleicht und in vielen Designs erhältlich.",
+        "details": [
+          "Polyrattan-Geflechte (wetterfest)",
+          "Aluminium-Rahmen (leicht und stabil)",
+          "UV-beständige Polster",
+          "Modulare Systeme"
+        ]
+      },
+      {
+        "title": "Strandkörbe",
+        "text": "Echte ostfriesische Strandkörbe — handgeflochten und in vielen Farben und Dessins. Ein Stück Nordsee für Ihren Garten.",
+        "details": [
+          "1-Sitzer und 2-Sitzer",
+          "Volllieger-Funktion",
+          "Handgeflochtener Weidenkorb",
+          "Hunderte Stoffe zur Auswahl"
+        ]
+      },
+      {
+        "title": "Outdoormöbel",
+        "text": "Esstische, Stühle und Bänke aus Aluminium, Teak oder Polyrattan. Für gesellige Stunden im Freien.",
+        "details": [
+          "Teak (FSC-zertifiziert)",
+          "Aluminium (pulverbeschichtet)",
+          "Stapel- und Klappstühle",
+          "Ausziehbare Tische"
+        ]
+      },
+      {
+        "title": "Sonnenschirme",
+        "text": "Große Ampelschirme, klassische Mittelmastschirme und Gastronomie-Schirme. UV-Schutz in elegantem Design.",
+        "details": [
+          "Ampelschirme bis 4m Durchmesser",
+          "360° drehbar",
+          "Easy-Lift-System",
+          "Windstabil bis Windstärke 6"
+        ]
+      }
+    ],
+    "advantages_label": "Ihre Vorteile",
+    "advantages_title": "Gartenmöbel bei Everwien",
+    "advantages": [
+      {
+        "title": "2.000 m² Ausstellung",
+        "text": "Probesitzen, anfassen, vergleichen — in unserer großen Ausstellung."
+      },
+      {
+        "title": "Markenqualität",
+        "text": "Nur ausgewählte Marken — für Langlebigkeit und Design."
+      },
+      {
+        "title": "Lieferung & Aufbau",
+        "text": "Wir liefern und bauen Ihre neuen Möbel bei Ihnen auf."
+      }
+    ],
+    "cta_title": "Besuchen Sie unsere Ausstellung",
+    "cta_text": "Über 2.000 m² Gartenmöbel, Strandkörbe und mehr — zum Anfassen und Probesitzen.",
+    "cta_btn": "Anfahrt & Öffnungszeiten",
+    "related_title": "Verwandte Kategorien"
+  },
+  "raumdesign": {
+    "hero_title": "Raum & Design",
+    "hero_subtitle": "Gardinen, Flächenvorhänge und Wohnaccessoires — für Räume, die begeistern.",
+    "breadcrumb": "Raumdesign",
+    "products_label": "Unsere Raumdesign-Lösungen",
+    "products_title": "Individuelle Gestaltung für Ihr Zuhause",
+    "products_subtitle": "Ob klassische Gardine, moderner Flächenvorhang oder stilvolles Accessoire — wir gestalten Ihre Räume nach Ihren Wünschen.",
+    "products": [
+      {
+        "title": "Gardinen",
+        "text": "Von transparent bis blickdicht, von klassisch bis modern — Gardinen nach Maß, in hunderten Stoffen und Farben. Professionell konfektioniert.",
+        "details": [
+          "Store-Gardinen (transparent)",
+          "Verdunkelungsgardinen",
+          "Thermogardine (isolierend)",
+          "Ösengardinen, Schlaufengardinen"
+        ]
+      },
+      {
+        "title": "Flächenvorhänge",
+        "text": "Moderne Flächenvorhänge für große Fensterflächen. Glatte Paneele, die elegant gleiten und flexibel kombinierbar sind.",
+        "details": [
+          "Bis 6 Laufschienen",
+          "Elektrische Bedienung möglich",
+          "Verdunkelung oder transparent",
+          "Individuell bedruckbar"
+        ]
+      },
+      {
+        "title": "Wohnaccessoires",
+        "text": "Kissen, Tischdecken, Dekostoffe und mehr — die perfekte Ergänzung für Ihr Raumkonzept. Alles aufeinander abgestimmt.",
+        "details": [
+          "Kissen und Dekokissen",
+          "Tischdecken und Tischläufer",
+          "Dekostoffe als Meterware",
+          "Individuell nach Wunsch"
+        ]
+      }
+    ],
+    "advantages_label": "Ihre Vorteile",
+    "advantages_title": "Raumdesign von Everwien",
+    "advantages": [
+      {
+        "title": "Persönliche Beratung",
+        "text": "Wir kommen mit Stoffmustern zu Ihnen nach Hause — oder besuchen Sie unsere Ausstellung."
+      },
+      {
+        "title": "Maßkonfektion",
+        "text": "Jede Gardine wird exakt nach Ihren Maßen in unserer Werkstatt genäht."
+      },
+      {
+        "title": "Montage inklusive",
+        "text": "Wir montieren Schienen, Stangen und Gardinen — fachgerecht und sauber."
+      }
+    ],
+    "cta_title": "Neue Gardinen gefällig?",
+    "cta_text": "Wir beraten Sie persönlich — bei Ihnen zu Hause oder in unserer Ausstellung in Norden.",
+    "cta_btn": "Beratung anfragen",
+    "related_title": "Verwandte Kategorien"
+  },
+  "kontakt": {
+    "hero_title": "Kontakt aufnehmen",
+    "hero_subtitle": "Wir freuen uns auf Ihre Nachricht — oder besuchen Sie uns persönlich in Norden.",
+    "breadcrumb": "Kontakt",
+    "form_title": "Schreiben Sie uns",
+    "form_subtitle": "Füllen Sie das Formular aus und wir melden uns schnellstmöglich bei Ihnen.",
+    "form_name": "Name *",
+    "form_name_placeholder": "Ihr vollständiger Name",
+    "form_name_error": "Bitte geben Sie Ihren Namen ein.",
+    "form_email": "E-Mail *",
+    "form_email_placeholder": "ihre@email.de",
+    "form_email_error": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+    "form_phone": "Telefon",
+    "form_phone_placeholder": "04931 / ...",
+    "form_topic": "Thema *",
+    "form_topic_placeholder": "Bitte wählen...",
+    "form_topic_error": "Bitte wählen Sie ein Thema.",
+    "form_topic_options": [
+      {
+        "value": "glasdaecher",
+        "label": "Glasdächer & Überdachungen"
+      },
+      {
+        "value": "sonnenschutz",
+        "label": "Sonnenschutz"
+      },
+      {
+        "value": "insektenschutz",
+        "label": "Insektenschutz"
+      },
+      {
+        "value": "gartenmoebel",
+        "label": "Gartenmöbel"
+      },
+      {
+        "value": "raumdesign",
+        "label": "Raumdesign"
+      },
+      {
+        "value": "karriere",
+        "label": "Karriere"
+      },
+      {
+        "value": "sonstiges",
+        "label": "Sonstiges"
+      }
+    ],
+    "form_message": "Nachricht *",
+    "form_message_placeholder": "Wie können wir Ihnen helfen?",
+    "form_message_error": "Bitte geben Sie eine Nachricht ein.",
+    "form_file": "Datei anhängen (optional)",
+    "form_file_text": "Klicken oder Datei hierher ziehen (PDF, JPG, PNG)",
+    "form_callback": "Ich wünsche einen Rückruf",
+    "form_privacy": "Ich habe die Datenschutzerklärung gelesen und stimme der Verarbeitung meiner Daten zu. *",
+    "form_privacy_error": "Bitte stimmen Sie der Datenschutzerklärung zu.",
+    "form_submit": "Nachricht senden",
+    "form_success": "Nachricht gesendet!",
+    "sidebar_contact_title": "Kontaktdaten",
+    "sidebar_address": "Adresse",
+    "sidebar_phone": "Telefon",
+    "sidebar_email": "E-Mail",
+    "sidebar_hours_title": "Öffnungszeiten",
+    "sidebar_hours_weekday": "Mo – Fr: 9:00 – 18:00 Uhr",
+    "sidebar_hours_saturday": "Samstag: 10:00 – 14:00 Uhr",
+    "sidebar_hours_sunday": "Sonntag: geschlossen",
+    "sidebar_directions_title": "Anfahrt",
+    "sidebar_directions_text": "Aus Richtung Emden/Aurich: B72 Richtung Norden, Abfahrt Gewerbegebiet.\n\nAus Richtung Wilhelmshaven: B210 über Marienhafe nach Norden.\n\nKostenlose Parkplätze direkt vor der Ausstellung."
+  },
+  "karriere": {
+    "hero_title": "Handwerk mit Zukunft",
+    "hero_subtitle": "Werde Teil eines Teams, das seit über 145 Jahren mit Leidenschaft Qualität liefert.",
+    "breadcrumb": "Karriere",
+    "why_label": "Warum Everwien?",
+    "why_title": "Mehr als nur ein Job",
+    "why_text1": "Bei Everwien verbinden wir die Werte eines traditionsreichen Handwerksbetriebs mit den Möglichkeiten moderner Technik. Seit 1880 fertigen wir in Norden Sonnenschutz, Glasdächer und Raumlösungen — und suchen Menschen, die diese Tradition mit uns fortführen wollen.",
+    "why_text2": "Ob erfahrener Monteur, engagierte Verkaufsberaterin oder motivierter Auszubildender — bei uns zählt Teamgeist, Qualitätsbewusstsein und die Freude am Handwerk.",
+    "benefits_label": "Ihre Vorteile",
+    "benefits_title": "Das bieten wir Ihnen",
+    "benefits": [
+      {
+        "title": "Tradition & Innovation",
+        "text": "145+ Jahre Erfahrung trifft auf modernste Technik und Materialien."
+      },
+      {
+        "title": "Familiäres Team",
+        "text": "Überschaubare Teamgröße mit persönlichem Umgang und kurzen Wegen."
+      },
+      {
+        "title": "Region Ostfriesland",
+        "text": "Leben und arbeiten, wo andere Urlaub machen — an der Nordseeküste."
+      },
+      {
+        "title": "Weiterbildung",
+        "text": "Regelmäßige Schulungen und Fortbildungen — wir investieren in Ihr Wissen."
+      },
+      {
+        "title": "Sicherer Arbeitsplatz",
+        "text": "Ein Unternehmen mit 145 Jahren Geschichte — das spricht für Stabilität."
+      },
+      {
+        "title": "Moderne Ausstattung",
+        "text": "Professionelles Werkzeug und Fahrzeuge — damit Sie gut arbeiten können."
+      }
+    ],
+    "jobs_label": "Offene Stellen",
+    "jobs_title": "Aktuelle Stellenangebote",
+    "jobs": [
+      {
+        "title": "Monteur/in — Sonnenschutz & Glasdächer",
+        "text": "Montage und Installation von Glasdächern, Markisen und Sonnenschutzsystemen bei unseren Kunden vor Ort.",
+        "tags": [
+          "Vollzeit",
+          "Norden",
+          "Ab sofort"
+        ]
+      },
+      {
+        "title": "Auszubildende/r — Rollladen- und Sonnenschutzmechatroniker/in",
+        "text": "Erlerne einen zukunftssicheren Beruf mit Technik, Handwerk und Kundenkontakt. Start: August 2026.",
+        "tags": [
+          "Ausbildung",
+          "Norden",
+          "Aug 2026"
+        ]
+      },
+      {
+        "title": "Verkaufsberater/in — Ausstellung & Beratung",
+        "text": "Beratung unserer Kunden in der Ausstellung und bei Hausbesuchen. Freude am Umgang mit Menschen vorausgesetzt.",
+        "tags": [
+          "Voll-/Teilzeit",
+          "Norden",
+          "Ab sofort"
+        ]
+      }
+    ],
+    "initiative_label": "Initiativbewerbung",
+    "initiative_title": "Keine passende Stelle dabei?",
+    "initiative_subtitle": "Wir freuen uns immer über motivierte Bewerbungen — schicken Sie uns einfach Ihre Unterlagen.",
+    "initiative_name": "Name *",
+    "initiative_email": "E-Mail *",
+    "initiative_message": "Ihre Nachricht *",
+    "initiative_message_placeholder": "Erzählen Sie uns von sich...",
+    "initiative_file": "Lebenslauf anhängen",
+    "initiative_submit": "Bewerbung absenden",
+    "initiative_success": "Bewerbung gesendet!"
+  },
+  "ueber_uns": {
+    "hero_title": "Über uns",
+    "hero_subtitle": "Seit 1880 verbinden wir ostfriesisches Handwerk mit Innovation. Lernen Sie uns kennen.",
+    "breadcrumb": "Über uns",
+    "chronik_label": "Unsere Geschichte",
+    "chronik_title": "145+ Jahre Everwien",
+    "chronik_subtitle": "Von der kleinen Werkstatt zum modernen Handwerksbetrieb — eine Familiengeschichte aus Norden.",
+    "chronik": [
+      {
+        "year": "1880",
+        "text": "Gründung durch Ortgies Janssen Everwien als Sattler am Neuen Weg 239, Norden. Erste Sattlerarbeiten für Brauerei Doornkaat, dann Polstermöbel, Tapezierarbeiten und Lederwaren."
+      },
+      {
+        "year": "1894",
+        "text": "Ehrenpreis auf der 1. Ostfriesischen Landwirtschaftlichen Gewerbeausstellung."
+      },
+      {
+        "year": "1895",
+        "text": "Häuser \u201eTeebüs\u201c und \u201eKofjebüs\u201c für 3.000 Reichstaler gekauft."
+      },
+      {
+        "year": "1909",
+        "text": "Sohn Folrich Everwien legt Meisterprüfung ab — 2. Generation."
+      },
+      {
+        "year": "1938",
+        "text": "3. Generation: Ortgies Everwien legt Meisterprüfung ab."
+      },
+      {
+        "year": "1957",
+        "text": "Modernisierung mit Beton und Glas, großzügige Schaufensteranlagen."
+      },
+      {
+        "year": "1974",
+        "text": "4. Generation Günter Everwien — Erweiterung um Rollladen-, Jalousetten- und Markisenbau."
+      },
+      {
+        "year": "1976",
+        "text": "Erste Fertigungshalle 600 m² am Norder Tief 43."
+      },
+      {
+        "year": "1984",
+        "text": "Fertigungshalle vergrößert, Plissees und Rollos neu im Sortiment."
+      },
+      {
+        "year": "1992",
+        "text": "5. Generation: Folkert Everwien (Meister und Architekt) tritt in den Betrieb ein."
+      },
+      {
+        "year": "Heute",
+        "text": "Rund 40 Mitarbeiter, 2.000 m² Ausstellung, eigene Produktion. Ihr Partner für Sonnenschutz & Raumdesign in Ostfriesland."
+      }
+    ],
+    "werte_label": "Unsere Werte",
+    "werte_title": "Wofür wir stehen",
+    "werte": [
+      {
+        "title": "Qualität",
+        "text": "Jedes Produkt wird sorgfältig gefertigt und geprüft. Wir stehen für handwerkliche Perfektion und langlebige Materialien."
+      },
+      {
+        "title": "Regionalität",
+        "text": "Wir fertigen in Norden, beraten in der Region und stärken Ostfriesland als Wirtschaftsstandort."
+      },
+      {
+        "title": "Nachhaltigkeit",
+        "text": "Langlebige Produkte statt Wegwerfmentalität. Energieeffizienter Sonnenschutz spart Heiz- und Kühlkosten."
+      }
+    ],
+    "team_label": "Unser Team",
+    "team_title": "Menschen mit Leidenschaft",
+    "team_text1": "Unser Team besteht aus erfahrenen Handwerkern, kreativen Beratern und engagierten Auszubildenden. Was uns verbindet: die Freude daran, für unsere Kunden die besten Lösungen zu finden.",
+    "team_text2": "Besuchen Sie uns in unserer 2.000 m² großen Musterausstellung in Norden — hier können Sie unsere Produkte live erleben und sich von unserem Team beraten lassen.",
+    "team_link_text": "Unser Team kennenlernen",
+    "team_cta": "Ausstellung besuchen",
+    "partners_label": "Unsere Partner",
+    "partners_title": "Starke Marken, starke Partner",
+    "partners_subtitle": "Wir arbeiten ausschließlich mit renommierten Herstellern zusammen, um Ihnen höchste Qualität zu garantieren.",
+    "cta_title": "Lernen Sie uns kennen",
+    "cta_text": "Besuchen Sie unsere Ausstellung oder vereinbaren Sie einen Beratungstermin — wir freuen uns auf Sie.",
+    "cta_btn": "Kontakt aufnehmen"
+  },
+  "team": {
+    "hero_title": "Unser Team",
+    "hero_subtitle": "Rund 40 Mitarbeiter — vom Meister bis zum Auszubildenden. Hier stellen wir Ihnen einige Gesichter vor.",
+    "breadcrumb": "Team",
+    "intro_label": "Menschen bei Everwien",
+    "intro_title": "Das Team hinter Ihrem Projekt",
+    "intro_text": "Ob Beratung, Fertigung oder Montage — bei Everwien arbeiten erfahrene Fachkräfte Hand in Hand. Gemeinsam sorgen wir dafür, dass Ihr Projekt perfekt umgesetzt wird.",
+    "departments": [
+      {
+        "key": "geschaeftsfuehrung",
+        "title": "Geschäftsführung",
+        "members": [
+          {
+            "name": "Folkert Everwien",
+            "role": "Geschäftsführer, 5. Generation",
+            "photo": "folkert-everwien.jpg",
+            "text": "Seit 1992 führt Folkert Everwien den Familienbetrieb in 5. Generation. Meister im Raumausstatterhandwerk und studierter Architekt."
+          },
+          {
+            "name": "Heike Everwien",
+            "role": "Geschäftsleitung & Verwaltung",
+            "photo": "team-04.jpg",
+            "text": "Organisiert die Verwaltung und hält den Laden zusammen."
+          }
+        ]
+      },
+      {
+        "key": "meister",
+        "title": "Meister & Werkstattleitung",
+        "members": [
+          {
+            "name": "Thomas Janssen",
+            "role": "Werkstattleiter",
+            "photo": "team-01.jpg",
+            "text": "Über 25 Jahre Erfahrung in Sonnenschutz und Glasdach-Konstruktion."
+          },
+          {
+            "name": "Michael Bruns",
+            "role": "Meister Rollladen- und Sonnenschutzmechatronik",
+            "photo": "team-09.jpg",
+            "text": "Unser Spezialist für Smart-Home-Steuerungen und Elektromotoren."
+          },
+          {
+            "name": "Stefan de Vries",
+            "role": "Meister Raumausstattung",
+            "photo": "team-06.jpg",
+            "text": "Von Gardinen bis Polsterarbeiten — Stefan ist unser Raumdesign-Experte."
+          }
+        ]
+      },
+      {
+        "key": "montage",
+        "title": "Montage-Teams",
+        "members": [
+          {
+            "name": "Jan-Hendrik Müller",
+            "role": "Teamleiter Montage Glasdächer",
+            "photo": "team-02.jpg",
+            "text": "Führt unser Glasdach-Team mit Sorgfalt und Präzision."
+          },
+          {
+            "name": "Enno Dirks",
+            "role": "Monteur Sonnenschutz",
+            "photo": "team-03.jpg",
+            "text": "Markisen, Rollläden und Raffstores — Enno montiert alles."
+          },
+          {
+            "name": "Klaas Fokken",
+            "role": "Monteur Glasdächer",
+            "photo": "team-08.jpg",
+            "text": "Sicher und schnell — Klaas ist jeder Überdachung gewachsen."
+          }
+        ],
+        "more_text": "... und 12 weitere Monteure in unseren Teams"
+      },
+      {
+        "key": "beratung",
+        "title": "Beratung & Verkauf",
+        "members": [
+          {
+            "name": "Imke Gerdes",
+            "role": "Beraterin Sonnenschutz & Glasdächer",
+            "photo": "team-05.jpg",
+            "text": "Findet für jedes Projekt die passende Lösung — mit Herz und Verstand."
+          },
+          {
+            "name": "Frauke Tammena",
+            "role": "Beraterin Raumdesign & Gardinen",
+            "photo": "team-10.jpg",
+            "text": "Stoffe, Farben und Formen — Frauke hat das Auge fürs Detail."
+          }
+        ],
+        "more_text": "... und 3 weitere Berater/innen"
+      },
+      {
+        "key": "verwaltung",
+        "title": "Verwaltung & Organisation",
+        "text_only": "In unserer Verwaltung sind 4 Mitarbeiter aktiv, die sich um Buchhaltung, Personalwesen und Kundenkommunikation kümmern."
+      }
+    ],
+    "cta_title": "Werden Sie Teil unseres Teams",
+    "cta_text": "Wir suchen engagierte Handwerker/innen und Auszubildende. Schauen Sie sich unsere offenen Stellen an.",
+    "cta_btn": "Karriere bei Everwien"
+  },
+  "faq": {
+    "hero_title": "Häufig gestellte Fragen",
+    "hero_subtitle": "Hier finden Sie Antworten auf die wichtigsten Fragen rund um unsere Produkte und Leistungen.",
+    "breadcrumb": "FAQ",
+    "categories": [
+      {
+        "title": "Glasdächer & Überdachungen",
+        "questions": [
+          {
+            "q": "Was kostet eine Terrassenüberdachung?",
+            "a": "Die Kosten hängen von Größe, Material und Ausstattung ab. Eine einfache Terrassenüberdachung beginnt bei ca. 5.000 €, ein voll ausgestatteter Sommergarten kann 20.000 € und mehr kosten. Wir erstellen Ihnen gerne ein individuelles Angebot — natürlich kostenlos und unverbindlich."
+          },
+          {
+            "q": "Was ist der Unterschied zwischen Wintergarten und Sommergarten?",
+            "a": "Ein Wintergarten ist ein vollwertiger Wohnraum mit Wärmeschutzverglasung und Heizung — ganzjährig nutzbar. Ein Sommergarten ist eine verglaste Terrassenüberdachung ohne Isolierung, ideal für Frühling bis Herbst. Der Sommergarten ist kostengünstiger und benötigt in der Regel keine Baugenehmigung."
+          },
+          {
+            "q": "Brauche ich eine Baugenehmigung für ein Glasdach?",
+            "a": "Das hängt von der Größe und Ihrem Bundesland ab. In Niedersachsen sind Terrassenüberdachungen bis zu einer bestimmten Größe genehmigungsfrei. Wintergärten als Wohnraumerweiterung benötigen in der Regel eine Genehmigung. Wir beraten Sie gerne und übernehmen auf Wunsch die Antragsstellung."
+          },
+          {
+            "q": "Wie lange dauert die Montage eines Glasdaches?",
+            "a": "Eine Standard-Terrassenüberdachung montieren wir in 2–3 Werktagen. Sommergärten mit Seitenverglasung benötigen 3–5 Tage. Die genaue Dauer hängt von der Größe und Ausstattung ab — wir besprechen den Zeitplan vorab mit Ihnen."
+          }
+        ]
+      },
+      {
+        "title": "Sonnenschutz",
+        "questions": [
+          {
+            "q": "Kann ich Sonnenschutz nachrüsten?",
+            "a": "Ja, nahezu alle unsere Sonnenschutzlösungen lassen sich problemlos nachrüsten. Markisen, Rollläden, Raffstores und Plissees können an bestehenden Gebäuden montiert werden. Wir kommen zu Ihnen, nehmen Maß und finden die optimale Lösung."
+          },
+          {
+            "q": "Wie pflege ich meine Markise richtig?",
+            "a": "Regelmäßig mit einer weichen Bürste trocken abbürsten. Bei stärkerer Verschmutzung lauwarm mit milder Seifenlösung reinigen und gut trocknen lassen. Fahren Sie die Markise bei Sturm und Dauerregen ein. Wir bieten auch professionelle Reinigung und Imprägnierung an."
+          },
+          {
+            "q": "Bieten Sie Smart-Home-Steuerungen an?",
+            "a": "Ja! Wir integrieren Ihren Sonnenschutz in gängige Smart-Home-Systeme (z.B. Somfy TaHoma, Homematic, KNX). Steuerung per App, Sprachassistent oder vollautomatisch über Sonnen-, Wind- und Regensensoren."
+          },
+          {
+            "q": "Was ist besser: Markise oder Raffstore?",
+            "a": "Das hängt vom Einsatzort ab. Markisen eignen sich hervorragend für Terrassen und Balkone — sie spenden großflächig Schatten. Raffstores (Außenjalousien) sind ideal für Fenster und Fassaden — sie bieten präzise Lichtsteuerung bei voller Durchsicht."
+          }
+        ]
+      },
+      {
+        "title": "Service & Beratung",
+        "questions": [
+          {
+            "q": "Kann ich die Ausstellung ohne Termin besuchen?",
+            "a": "Selbstverständlich! Unsere 2.000 m² große Musterausstellung in Norden können Sie während der Öffnungszeiten (Mo–Fr 9–18 Uhr, Sa 10–14 Uhr) jederzeit ohne Termin besuchen. Für eine ausführliche persönliche Beratung empfehlen wir eine Terminvereinbarung."
+          },
+          {
+            "q": "Liefern Sie auch außerhalb Ostfrieslands?",
+            "a": "Ja! Unser Kerngebiet ist Ostfriesland — Norden, Aurich, Emden, Leer und Umgebung. Wir liefern und montieren aber auch im gesamten Nordwesten Deutschlands."
+          },
+          {
+            "q": "Bieten Sie einen Rückrufservice an?",
+            "a": "Ja, Sie können über unser Kontaktformular einen Rückruf anfordern. Haken Sie einfach 'Ich wünsche einen Rückruf' an und wir melden uns zeitnah bei Ihnen — in der Regel noch am selben Werktag."
+          },
+          {
+            "q": "Bieten Sie auch Wartung und Reparatur an?",
+            "a": "Selbstverständlich! Wir bieten Wartung, Inspektion und Reparatur für alle unsere Produkte an — auch für Fremdprodukte."
+          }
+        ]
+      },
+      {
+        "title": "Bestellung & Garantie",
+        "questions": [
+          {
+            "q": "Bieten Sie Finanzierung an?",
+            "a": "Ja, wir bieten in Zusammenarbeit mit unseren Finanzierungspartnern flexible Ratenzahlung an. Ob Glasdach, Markise oder Gartenmöbel — sprechen Sie uns einfach darauf an."
+          },
+          {
+            "q": "Welche Garantie erhalte ich?",
+            "a": "Mindestens 5 Jahre auf alle Produkte. Glasdächer und Terrassenüberdachungen: bis zu 10 Jahre auf die Konstruktion. Motoren und Steuerungen: je nach Hersteller 5–7 Jahre."
+          },
+          {
+            "q": "Wie lange dauert es von der Bestellung bis zur Montage?",
+            "a": "Die Lieferzeit variiert je nach Produkt: Markisen und Rollläden ca. 3–4 Wochen, Terrassenüberdachungen ca. 4–6 Wochen, Sommergärten ca. 6–8 Wochen."
+          },
+          {
+            "q": "Gibt es eine Anzahlung?",
+            "a": "Je nach Projektgröße bitten wir um eine Anzahlung von 30–50% bei Auftragserteilung. Der Restbetrag wird nach erfolgreicher Montage und Abnahme fällig."
+          }
+        ]
+      }
+    ],
+    "more_questions": "Ihre Frage war nicht dabei?",
+    "more_cta": "Fragen Sie uns direkt"
+  },
+  "footer": {
+    "brand_text": "Sonnenschutz & Raumdesign aus Norden/Ostfriesland. Qualität aus eigener Produktion seit 1880.",
+    "products": "Produkte",
+    "company": "Unternehmen",
+    "contact": "Kontakt",
+    "hours": "Mo–Fr: 9:00–18:00\nSa: 10:00–14:00",
+    "copyright": "© 2026 Sonnenschutz & Raumdesign Everwien. Alle Rechte vorbehalten.",
+    "sayings": [
+      "Qualität aus Ostfriesland — seit 1880.",
+      "Ihr Partner für Sonnenschutz & Raumdesign.",
+      "Besuchen Sie unsere 2.000 m² Ausstellung!",
+      "Handwerk mit Tradition und Innovation.",
+      "Von der Nordsee in Ihr Zuhause."
+    ]
+  },
+  "not_found": {
+    "title": "Seite nicht gefunden!",
+    "subtitle": "Ups — hier ist leider nichts zu finden.",
+    "game_title": "Fang die Sonne!",
+    "game_instruction": "Bewege die Markise und fange die Sonne ein — klick oder tipp auf die Sonne!",
+    "game_score": "Gefangen",
+    "game_win": "Super! Du hast die Sonne gefangen!",
+    "back_home": "Zurück zur Startseite",
+    "back_contact": "Oder kontaktieren Sie uns"
+  },
+  "cta_consultation": "Kostenlose Beratung anfragen",
+  "cta_callback": "Rückruf vereinbaren",
+  "more_info": "Mehr erfahren"
+}
