@@ -615,7 +615,7 @@
       },
       {
         "year": "1895",
-        "text": "Häuser \u201eTeebüs\u201c und \u201eKofjebüs\u201c für 3.000 Reichstaler gekauft."
+        "text": "Häuser „Teebüs“ und „Kofjebüs“ für 3.000 Reichstaler gekauft."
       },
       {
         "year": "1909",
@@ -632,6 +632,10 @@
       {
         "year": "1957",
         "text": "Modernisierung mit Beton und Glas, großzügige Schaufensteranlagen."
+      },
+      {
+        "year": "1961",
+        "text": "Günter Everwien legt die Meisterprüfung im Raumausstatterhandwerk ab. Sein Motto: „Fortschritt ist alles, Stillstand bedeutet Rückgang.“"
       },
       {
         "year": "1974",
@@ -690,9 +694,11 @@
     "intro_label": "Menschen bei Everwien",
     "intro_title": "Das Team hinter Ihrem Projekt",
     "intro_text": "Ob Beratung, Fertigung oder Montage — bei Everwien arbeiten erfahrene Fachkräfte Hand in Hand. Gemeinsam sorgen wir dafür, dass Ihr Projekt perfekt umgesetzt wird.",
-    "departments": [
+    "cta_title": "Werden Sie Teil unseres Teams",
+    "cta_text": "Wir suchen engagierte Handwerker/innen und Auszubildende. Schauen Sie sich unsere offenen Stellen an.",
+    "cta_btn": "Karriere bei Everwien",
+    "categories": [
       {
-        "key": "geschaeftsfuehrung",
         "title": "Geschäftsführung",
         "members": [
           {
@@ -705,12 +711,12 @@
             "name": "Heike Everwien",
             "role": "Geschäftsleitung & Verwaltung",
             "photo": "team-04.jpg",
-            "text": "Organisiert die Verwaltung und hält den Laden zusammen."
+            "text": "Organisiert die Verwaltung und hält den Laden zusammen. Ansprechpartnerin für Personal und Finanzen."
           }
-        ]
+        ],
+        "id": "geschaeftsfuehrung"
       },
       {
-        "key": "meister",
         "title": "Meister & Werkstattleitung",
         "members": [
           {
@@ -730,11 +736,17 @@
             "role": "Meister Raumausstattung",
             "photo": "team-06.jpg",
             "text": "Von Gardinen bis Polsterarbeiten — Stefan ist unser Raumdesign-Experte."
+          },
+          {
+            "name": "Hendrik Lüpkes",
+            "role": "Meister Glasdach-Konstruktion",
+            "photo": "team-07.jpg",
+            "text": "Plant und berechnet unsere Glasdach-Projekte. Präzision ist sein Markenzeichen."
           }
-        ]
+        ],
+        "id": "meister"
       },
       {
-        "key": "montage",
         "title": "Montage-Teams",
         "members": [
           {
@@ -756,10 +768,10 @@
             "text": "Sicher und schnell — Klaas ist jeder Überdachung gewachsen."
           }
         ],
-        "more_text": "... und 12 weitere Monteure in unseren Teams"
+        "id": "montage",
+        "plus_text": "... und 17 weitere Monteure in unseren Glasdach-, Sonnenschutz- und Insektenschutz-Teams"
       },
       {
-        "key": "beratung",
         "title": "Beratung & Verkauf",
         "members": [
           {
@@ -775,17 +787,16 @@
             "text": "Stoffe, Farben und Formen — Frauke hat das Auge fürs Detail."
           }
         ],
-        "more_text": "... und 3 weitere Berater/innen"
+        "id": "beratung",
+        "plus_text": "... und 4 weitere Berater/innen im Innen- und Außendienst"
       },
       {
-        "key": "verwaltung",
         "title": "Verwaltung & Organisation",
-        "text_only": "In unserer Verwaltung sind 4 Mitarbeiter aktiv, die sich um Buchhaltung, Personalwesen und Kundenkommunikation kümmern."
+        "id": "verwaltung",
+        "plus_text": "In unserer Verwaltung arbeiten 5 Mitarbeiter, die sich um Buchhaltung, Personalwesen, Einkauf und Kundenkommunikation kümmern.",
+        "members": []
       }
-    ],
-    "cta_title": "Werden Sie Teil unseres Teams",
-    "cta_text": "Wir suchen engagierte Handwerker/innen und Auszubildende. Schauen Sie sich unsere offenen Stellen an.",
-    "cta_btn": "Karriere bei Everwien"
+    ]
   },
   "faq": {
     "hero_title": "Häufig gestellte Fragen",

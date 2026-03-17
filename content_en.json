@@ -626,8 +626,16 @@
         "text": "3rd generation: Ortgies Everwien passes master craftsman exam."
       },
       {
+        "year": "1945",
+        "text": "Ortgies Everwien takes over the business after the war. Beginning of modernisation and realignment of the company."
+      },
+      {
         "year": "1957",
         "text": "Modernisation with concrete and glass, spacious shop window displays."
+      },
+      {
+        "year": "1961",
+        "text": "Günter Everwien passes the master craftsman exam in interior decoration. His motto: 'Progress is everything, standstill means decline.'"
       },
       {
         "year": "1974",
@@ -686,92 +694,106 @@
     "intro_label": "Who We Are",
     "intro_title": "Around 40 People, One Mission",
     "intro_text": "From management to the installation teams — every member of our team contributes to making your home more beautiful. Get to know us.",
-    "geschaeftsfuehrung": {
-      "title": "Management",
-      "members": [
-        {
-          "name": "Folkert Everwien",
-          "role": "Managing Director, 5th Generation",
-          "photo": "folkert-everwien.jpg",
-          "text": "Since 1992, Folkert Everwien has led the family business in its 5th generation. Master craftsman in interior decoration and qualified architect."
-        },
-        {
-          "name": "Heike Everwien",
-          "role": "Business Management & Administration",
-          "photo": "team-04.jpg",
-          "text": "Organises the administration and keeps everything running smoothly."
-        }
-      ]
-    },
-    "meister": {
-      "title": "Master Craftsmen & Workshop Management",
-      "members": [
-        {
-          "name": "Thomas Janssen",
-          "role": "Workshop Manager",
-          "photo": "team-01.jpg",
-          "text": "Over 25 years of experience in sun protection and glass roof construction."
-        },
-        {
-          "name": "Michael Bruns",
-          "role": "Master Roller Shutter & Sun Protection Mechatronics",
-          "photo": "team-09.jpg",
-          "text": "Our specialist for smart home controls and electric motors."
-        },
-        {
-          "name": "Stefan de Vries",
-          "role": "Master Interior Decoration",
-          "photo": "team-06.jpg",
-          "text": "From curtains to upholstery — Stefan is our interior design expert."
-        }
-      ]
-    },
-    "montage": {
-      "title": "Installation Teams",
-      "members": [
-        {
-          "name": "Jan-Hendrik Müller",
-          "role": "Team Leader Glass Roof Installation",
-          "photo": "team-02.jpg",
-          "text": "Leads our glass roof team with care and precision."
-        },
-        {
-          "name": "Enno Dirks",
-          "role": "Installer Sun Protection",
-          "photo": "team-03.jpg",
-          "text": "Awnings, roller shutters and external blinds — Enno installs everything."
-        },
-        {
-          "name": "Klaas Fokken",
-          "role": "Installer Glass Roofs",
-          "photo": "team-08.jpg",
-          "text": "Safe and fast — Klaas is up to any roof challenge."
-        }
-      ],
-      "more_text": "... and 12 more installers in our teams"
-    },
-    "beratung": {
-      "title": "Consulting & Sales",
-      "members": [
-        {
-          "name": "Imke Gerdes",
-          "role": "Consultant Sun Protection & Glass Roofs",
-          "photo": "team-05.jpg",
-          "text": "Finds the right solution for every project — with heart and mind."
-        },
-        {
-          "name": "Frauke Tammena",
-          "role": "Consultant Interior Design & Curtains",
-          "photo": "team-10.jpg",
-          "text": "Fabrics, colours and shapes — Frauke has an eye for detail."
-        }
-      ],
-      "more_text": "... and 3 more consultants"
-    },
-    "verwaltung": {
-      "title": "Administration & Organisation",
-      "text_only": "Our administration team of 4 handles accounting, HR and customer communication."
-    },
+    "categories": [
+      {
+        "id": "geschaeftsfuehrung",
+        "title": "Management",
+        "members": [
+          {
+            "name": "Folkert Everwien",
+            "role": "Managing Director, 5th Generation",
+            "photo": "folkert-everwien.jpg",
+            "text": "Since 1992, Folkert Everwien has led the family business in its 5th generation. Master craftsman in interior decoration and qualified architect."
+          },
+          {
+            "name": "Heike Everwien",
+            "role": "Business Management & Administration",
+            "photo": "team-04.jpg",
+            "text": "Organises the administration and keeps everything running smoothly. Contact for HR and finance."
+          }
+        ]
+      },
+      {
+        "id": "meister",
+        "title": "Master Craftsmen & Workshop Management",
+        "members": [
+          {
+            "name": "Thomas Janssen",
+            "role": "Workshop Manager",
+            "photo": "team-01.jpg",
+            "text": "Over 25 years of experience in sun protection and glass roof construction."
+          },
+          {
+            "name": "Michael Bruns",
+            "role": "Master Roller Shutter & Sun Protection Mechatronics",
+            "photo": "team-09.jpg",
+            "text": "Our specialist for smart home controls and electric motors."
+          },
+          {
+            "name": "Stefan de Vries",
+            "role": "Master Interior Decoration",
+            "photo": "team-06.jpg",
+            "text": "From curtains to upholstery — Stefan is our interior design expert."
+          },
+          {
+            "name": "Hendrik Lüpkes",
+            "role": "Master Glass Roof Construction",
+            "photo": "team-07.jpg",
+            "text": "Plans and engineers our glass roof projects. Precision is his trademark."
+          }
+        ]
+      },
+      {
+        "id": "montage",
+        "title": "Installation Teams",
+        "members": [
+          {
+            "name": "Jan-Hendrik Müller",
+            "role": "Team Leader Glass Roof Installation",
+            "photo": "team-02.jpg",
+            "text": "Leads our glass roof team with care and precision."
+          },
+          {
+            "name": "Enno Dirks",
+            "role": "Installer Sun Protection",
+            "photo": "team-03.jpg",
+            "text": "Awnings, roller shutters and external blinds — Enno installs everything."
+          },
+          {
+            "name": "Klaas Fokken",
+            "role": "Installer Glass Roofs",
+            "photo": "team-08.jpg",
+            "text": "Safe and fast — Klaas is up to any roof challenge."
+          }
+        ],
+        "plus_text": "... and 17 more installers across our glass roof, sun protection and insect screen teams"
+      },
+      {
+        "id": "beratung",
+        "title": "Consulting & Sales",
+        "members": [
+          {
+            "name": "Imke Gerdes",
+            "role": "Consultant Sun Protection & Glass Roofs",
+            "photo": "team-05.jpg",
+            "text": "Finds the right solution for every project — with heart and mind."
+          },
+          {
+            "name": "Frauke Tammena",
+            "role": "Consultant Interior Design & Curtains",
+            "photo": "team-10.jpg",
+            "text": "Fabrics, colours and shapes — Frauke has an eye for detail."
+          }
+        ],
+        "plus_text": "... and 4 more consultants in our showroom and field service"
+      },
+      {
+        "id": "verwaltung",
+        "title": "Administration & Organisation",
+        "members": [],
+        "plus_text": "Our administration team of 5 handles accounting, HR, procurement and customer communication."
+      }
+    ],
     "cta_title": "Want to Join Our Team?",
     "cta_text": "We're always looking for passionate people. Check out our open positions.",
     "cta_btn": "View Careers"

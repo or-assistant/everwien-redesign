@@ -17,8 +17,11 @@
 <section class="section">
   <div class="container">
     <div class="text-center fade-in" style="margin-bottom:48px;">
-      <p class="section-label">{{ t.team.intro_text }}</p>
-      <h2 class="section-title">{{ t.team.intro_subtitle }}</h2>
+      <p class="section-label">{{ t.team.intro_label or t.team.intro_text }}</p>
+      <h2 class="section-title">{{ t.team.intro_title or t.team.intro_subtitle }}</h2>
+      {% if t.team.intro_text and t.team.intro_label %}
+      <p class="section-subtitle mx-auto">{{ t.team.intro_text }}</p>
+      {% endif %}
     </div>
 
     <!-- Team Accordion -->
