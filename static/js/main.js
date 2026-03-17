@@ -538,7 +538,40 @@
   }
 
   /* -----------------------------------------------
-     14. Smooth Scroll for Anchor Links
+     14. Team Accordion
+     ----------------------------------------------- */
+  document.querySelectorAll('.team-category__header').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var category = btn.closest('.team-category');
+      var body = category.querySelector('.team-category__body');
+      var isActive = btn.classList.contains('active');
+
+      // Close all others
+      var accordion = btn.closest('.team-accordion');
+      if (accordion) {
+        accordion.querySelectorAll('.team-category__header.active').forEach(function (other) {
+          if (other !== btn) {
+            other.classList.remove('active');
+            other.setAttribute('aria-expanded', 'false');
+            other.closest('.team-category').querySelector('.team-category__body').style.maxHeight = '0';
+          }
+        });
+      }
+
+      if (isActive) {
+        btn.classList.remove('active');
+        btn.setAttribute('aria-expanded', 'false');
+        body.style.maxHeight = '0';
+      } else {
+        btn.classList.add('active');
+        btn.setAttribute('aria-expanded', 'true');
+        body.style.maxHeight = body.scrollHeight + 'px';
+      }
+    });
+  });
+
+  /* -----------------------------------------------
+     15. Smooth Scroll for Anchor Links
      ----------------------------------------------- */
   document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
     anchor.addEventListener('click', function (e) {
