@@ -1,0 +1,2 @@
+{"name": "&lt;script&gt;alert(1)&lt;/script&gt;", "email": "x@x.de", "phone": "", "topic": "test", "message": "xss", "ts": "2026-03-18T05:41:47.588895"}
+{"name": "Test User", "email": "test@example.com", "phone": "040-123", "topic": "Sonnenschutz", "message": "Anfrage", "ts": "2026-03-18T05:41:47.604641"}

@@ -434,9 +434,10 @@ button { cursor: pointer; }
   background: rgba(0,0,0,.4);
   z-index: 998;
   opacity: 0;
+  pointer-events: none;
   transition: opacity var(--transition);
 }
-.nav__overlay.open { opacity: 1; }
+.nav__overlay.open { opacity: 1; pointer-events: auto; }
 
 @media (max-width: 900px) {
   .nav__links { display: none; }
@@ -466,6 +467,7 @@ button { cursor: pointer; }
   position: absolute;
   inset: 0;
   background: linear-gradient(135deg, rgba(45,52,54,.75) 0%, rgba(45,52,54,.45) 100%);
+  pointer-events: none;
 }
 .hero__content {
   position: relative;
@@ -582,6 +584,7 @@ button { cursor: pointer; }
   position: absolute;
   inset: 0;
   background: linear-gradient(to top, rgba(0,0,0,.65) 0%, transparent 60%);
+  pointer-events: none;
 }
 .bento-card__content {
   position: absolute;
