@@ -443,7 +443,8 @@ button { cursor: pointer; }
   .nav__links { display: none; }
   .nav__hamburger { display: flex; }
   .nav__mobile { display: block; }
-  .nav__overlay { display: block; }
+  .nav__overlay { display: none; }
+  .nav__overlay.open { display: block; pointer-events: auto; }
 }
 
 /* --- Hero --- */
