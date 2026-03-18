@@ -478,20 +478,43 @@
       if (valid) {
         var btn = contactForm.querySelector('button[type="submit"]');
         btn.disabled = true;
-        btn.innerHTML = SUCCESS_SVG + ' Nachricht gesendet!';
-        btn.style.background = '#6B7F5E';
-        setTimeout(function () {
-          contactForm.reset();
-          btn.textContent = 'Nachricht senden';
+        btn.textContent = '...';
+        var data = {
+          name: contactForm.querySelector('#name').value,
+          email: contactForm.querySelector('#email').value,
+          phone: (contactForm.querySelector('#phone') || {}).value || '',
+          topic: (contactForm.querySelector('#topic') || {}).value || '',
+          message: contactForm.querySelector('#message').value
+        };
+        var basePath = document.querySelector('meta[name="base-path"]');
+        var bp = basePath ? basePath.getAttribute('content') : '/everwien';
+        fetch(bp + '/api/contact', {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify(data)
+        }).then(function(r) { return r.json(); }).then(function(res) {
+          if (res.ok) {
+            btn.innerHTML = SUCCESS_SVG + ' Nachricht gesendet!';
+            btn.style.background = '#6B7F5E';
+            setTimeout(function () {
+              contactForm.reset();
+              btn.textContent = 'Nachricht senden';
+              btn.disabled = false;
+              btn.style.background = '';
+              contactForm.querySelectorAll('.form-group').forEach(function (g) {
+                g.classList.remove('valid');
+                var check = g.querySelector('.form-check');
+                if (check) check.remove();
+              });
+            }, 3000);
+          } else {
+            btn.textContent = 'Fehler — bitte erneut versuchen';
+            btn.disabled = false;
+          }
+        }).catch(function() {
+          btn.textContent = 'Fehler — bitte erneut versuchen';
           btn.disabled = false;
-          btn.style.background = '';
-          // Clear valid states
-          contactForm.querySelectorAll('.form-group').forEach(function (g) {
-            g.classList.remove('valid');
-            var check = g.querySelector('.form-check');
-            if (check) check.remove();
-          });
-        }, 3000);
+        });
       }
     });
   }

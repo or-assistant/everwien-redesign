@@ -790,7 +790,20 @@
       {
         "id": "verwaltung",
         "title": "Administration & Organisation",
-        "members": [],
+        "members": [
+          {
+            "name": "Tanja Everwien",
+            "role": "Office Manager",
+            "photo": "team-placeholder.jpg",
+            "text": "Coordinates appointments, quotes and all internal operations."
+          },
+          {
+            "name": "Sabine Meyer",
+            "role": "Accounting",
+            "photo": "team-placeholder.jpg",
+            "text": "Responsible for accounting and finances."
+          }
+        ],
         "plus_text": "Our administration team of 5 handles accounting, HR, procurement and customer communication."
       }
     ],

@@ -794,7 +794,20 @@
         "title": "Verwaltung & Organisation",
         "id": "verwaltung",
         "plus_text": "In unserer Verwaltung arbeiten 5 Mitarbeiter, die sich um Buchhaltung, Personalwesen, Einkauf und Kundenkommunikation kümmern.",
-        "members": []
+        "members": [
+          {
+            "name": "Tanja Everwien",
+            "role": "Büroleiterin",
+            "photo": "team-placeholder.jpg",
+            "text": "Koordiniert Termine, Angebote und den gesamten Innendienst."
+          },
+          {
+            "name": "Sabine Meyer",
+            "role": "Buchhaltung",
+            "photo": "team-placeholder.jpg",
+            "text": "Verantwortlich für Rechnungswesen und Finanzen."
+          }
+        ]
       }
     ]
   },

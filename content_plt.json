@@ -789,7 +789,20 @@
       {
         "id": "verwaltung",
         "title": "Verwaltung & Organisation",
-        "members": [],
+        "members": [
+          {
+            "name": "Tanja Everwien",
+            "role": "Büroleiterin",
+            "photo": "team-placeholder.jpg",
+            "text": "Koordineert Terminen, Anboden un den ganzen Binnendienst."
+          },
+          {
+            "name": "Sabine Meyer",
+            "role": "Bookholung",
+            "photo": "team-placeholder.jpg",
+            "text": "Toständig för Reken un Finanzen."
+          }
+        ],
         "plus_text": "In uns Verwaltung sünd 4 Mitarbeiters aktiv, de sik üm Buchhaltung, Personalwesen un Kundenkommunikatschoon kümmert."
       }
     ],

@@ -4,7 +4,9 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from fastapi.responses import Response, RedirectResponse
 from starlette.exceptions import HTTPException as StarletteHTTPException
-import uvicorn, os, json
+import uvicorn, os, json, datetime, html as html_mod
+from pydantic import BaseModel, EmailStr
+from typing import Optional
 
 BASE_PATH = os.environ.get("BASE_PATH", "/everwien")
 app = FastAPI(docs_url=None, redoc_url=None)
@@ -38,8 +40,7 @@ async def security_headers(request: Request, call_next):
     response.headers["X-Frame-Options"] = "SAMEORIGIN"
     response.headers["Referrer-Policy"] = "strict-origin-when-cross-origin"
     response.headers["Permissions-Policy"] = "camera=(), microphone=(), geolocation=()"
-    if "server" in response.headers:
-        del response.headers["server"]
+    response.headers["Server"] = "Everwien"
     return response
 
 # --- Language switch ---
@@ -94,10 +95,6 @@ async def ueber_uns(request: Request):
 async def team(request: Request):
     return templates.TemplateResponse("team.html", ctx(request))
 
-@app.get(f"{BASE_PATH}/team")
-async def team(request: Request):
-    return templates.TemplateResponse("team.html", ctx(request))
-
 @app.get(f"{BASE_PATH}/faq")
 async def faq(request: Request):
     return templates.TemplateResponse("faq.html", ctx(request))
@@ -109,6 +106,28 @@ async def impressum(request: Request):
 @app.get(f"{BASE_PATH}/datenschutz")
 async def datenschutz(request: Request):
     return templates.TemplateResponse("datenschutz.html", ctx(request))
+
+# --- Contact Form ---
+class ContactForm(BaseModel):
+    name: str
+    email: str
+    phone: Optional[str] = ""
+    topic: str
+    message: str
+
+CONTACTS_LOG = os.path.join(os.path.dirname(__file__), "data", "contacts.log")
+os.makedirs(os.path.dirname(CONTACTS_LOG), exist_ok=True)
+
+@app.post(f"{BASE_PATH}/api/contact")
+async def contact_submit(form: ContactForm):
+    # Sanitize
+    safe = {k: html_mod.escape(str(v).strip())[:2000] for k, v in form.dict().items()}
+    if not safe["name"] or not safe["email"] or not safe["message"]:
+        return {"ok": False, "error": "Missing fields"}
+    entry = {**safe, "ts": datetime.datetime.utcnow().isoformat()}
+    with open(CONTACTS_LOG, "a", encoding="utf-8") as f:
+        f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+    return {"ok": True}
 
 # --- 404 Handler ---
 @app.exception_handler(StarletteHTTPException)
@@ -134,4 +153,4 @@ async def llms():
         return Response(content=f.read(), media_type="text/plain")
 
 if __name__ == "__main__":
-    uvicorn.run("server:app", host="0.0.0.0", port=3019, reload=True)
+    uvicorn.run("server:app", host="0.0.0.0", port=3019, reload=True, server_header=False)
